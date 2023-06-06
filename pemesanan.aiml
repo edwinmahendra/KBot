@@ -5,7 +5,7 @@
         <pattern>PESAN</pattern>
         <template>
             Untuk cara memesan makanan, jika anda sedang berada di kfc, maka anda harus mengantri ke kasir dan memesan makanan disana ^ ^
-            Jika anda sedang tidak berada di kfc, maka anda bisa memesan semua menu makanan atau minuman KFC melalui aplikasi GoJek dan Grab
+            Jika anda sedang tidak berada di kfc, maka anda bisa memesan semua menu makanan atau minuman KFC melalui aplikasi KFCKU, GoJek, ShopeeFood dan Grab
         </template>
     </category>
     <category>
@@ -66,6 +66,67 @@
         <pattern>* PROSEDUR PESANAN</pattern>
         <template>
             <srai>PESAN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PEMESANAN ONLINE</pattern>
+        <template>
+            Sebelumnya, KFC menyediakan pemesanan online melalui KFCKU, Gojek, Grab, dan ShopeeFood
+        </template>
+    </category>
+    <category>
+        <pattern>* PEMESANAN ONLINE</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PEMESANAN ONLINE *</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
+        </template>
+    </category>
+    <category>
+    <pattern>ORDER ONLINE *</pattern>
+    <template>
+        <srai>PEMESANAN ONLINE</srai>
+    </template>
+    </category>
+    <category>
+        <pattern>* ORDER ONLINE</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CARA ORDER ONLINE *</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CARA ORDER ONLINE</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BAGAIMANA MEMESAN ONLINE *</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BAGAIMANA MEMESAN ONLINE *</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BAGAIMANA MEMESAN ONLINE</pattern>
+        <template>
+            <srai>PEMESANAN ONLINE</srai>
         </template>
     </category>
 </aiml>

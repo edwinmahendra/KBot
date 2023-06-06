@@ -425,29 +425,46 @@
     </category>
     
     <category>
-        <pattern>BEDA AYAM CRISPY * ORIGINAL</pattern>
+        <pattern>BEDA AYAM CRISPY ORIGINAL</pattern>
         <template>
             Ayam Original (OR) tidak pedas dan kulit terasa kurang renyah, dan ayam Crispy (HCC) itu kulitnya tebal banyak tepungnya dan rasanya agak sedikit pedas
         </template>
     </category>
     <category>
-        <pattern>* BEDA * AYAM CRISPY * ORIGINAL *</pattern>
+        <pattern>* AYAM CRISPY * ORIGINAL *</pattern>
         <template>
             <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
         </template>
     </category>
     <category>
-        <pattern>BEDA * AYAM CRISPY * ORIGINAL *</pattern>
+        <pattern>AYAM CRISPY * ORIGINAL *</pattern>
         <template>
             <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
         </template>
     </category>
     <category>
-        <pattern>BEDANYA AYAM CRISPY * ORIGINAL *</pattern>
+        <pattern>* AYAM CRISPY * ORIGINAL</pattern>
         <template>
             <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
         </template>
     </category>
-
+    <category>
+        <pattern>* AYAM ORIGINAL * CRISPY *</pattern>
+        <template>
+            <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
+        </template>
+    </category>   
+    <category>
+        <pattern>AYAM ORIGINAL * CRISPY *</pattern>
+        <template>
+            <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
+        </template>
+    </category> 
+    <category>
+        <pattern>* AYAM ORIGINAL * CRISPY *</pattern>
+        <template>
+            <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
+        </template>
+    </category> 
 
 </aiml>
