@@ -34,3 +34,13 @@ Your feedback is valuable to us in improving this chatbot application. If you ha
 
 ## Contributions
 This project is open-source, and contributions are welcomed. If you want to improve this chatbot or add features, please make a Pull Request. Before making a large change, it is advisable to open an issue first to discuss it.
+
+##  ⚠️ Disclaimer
+
+Please note that the content provided here does not originate from KFC or any of its affiliates. The food and drink menu items listed here are inspired by the offerings of KFC Indonesia, and are used purely for illustrative purposes. 
+
+This repository, its author, and contributors are not affiliated, endorsed, or sponsored by KFC, Yum! Brands, or any of their subsidiaries. The information in this repository is provided "as is" without any representations or warranties, express or implied. 
+
+The use of the KFC name and/or its menu offerings does not imply any connection or association with KFC Corporation, Yum! Brands, or any KFC outlets worldwide. The KFC name, logos, and related trademarks are the property of their respective trademark holders.
+
+By using this information, you agree to do so at your own discretion and risk. The author and contributors to this repository shall not be held liable for any damages or any form of loss resulting from the use of this information.
