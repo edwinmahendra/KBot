@@ -4,7 +4,7 @@
     <category>
         <pattern>PESAN</pattern>
         <template>
-            Untuk cara memesan makanan, jika anda sedang berada di kfc, maka anda harus mengantri ke kasir dan memesan makanan disana ^
+            Untuk cara memesan makanan, jika anda sedang berada di kfc, maka anda harus mengantri ke kasir dan memesan makanan disana ^ ^
             Jika anda sedang tidak berada di kfc, maka anda bisa memesan semua menu makanan atau minuman KFC melalui aplikasi GoJek dan Grab
         </template>
     </category>
