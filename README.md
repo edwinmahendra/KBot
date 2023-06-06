@@ -35,6 +35,9 @@ Your feedback is valuable to us in improving this chatbot application. If you ha
 ## Contributions
 This project is open-source, and contributions are welcomed. If you want to improve this chatbot or add features, please make a Pull Request. Before making a large change, it is advisable to open an issue first to discuss it.
 
+## Credit
+The text correction algorithm implemented in this project is inspired by Peter Norvig's article ["How to Write a Spelling Corrector"](https://norvig.com/spell-correct.html). Peter Norvig is a Director of Research at Google Inc, and his work in spelling correction and natural language processing has significantly impacted the field. We'd like to express our gratitude for his substantial contribution to the community and for making his knowledge openly available for learning and improvement purposes.
+
 ##  ⚠️ Disclaimer
 
 Please note that the content provided here does not originate from KFC or any of its affiliates. The food and drink menu items listed here are inspired by the offerings of KFC Indonesia, and are used purely for illustrative purposes. 
