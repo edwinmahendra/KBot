@@ -1,7 +1,7 @@
 # ChatBot with AIML and Text Correction
 
 ## 📝  Description
-This project is a simple chatbot application that integrates Artificial Intelligence Markup Language (AIML) for generating responses and utilizes a basic text correction functionality to correct the user's input message. It's designed to answer questions related to food ordering, specifically for a restaurant like KFC.
+This project is a simple chatbot application developed using Flask, that integrates Artificial Intelligence Markup Language (AIML) for generating responses and utilizes a basic text correction functionality to correct the user's input message. The application serves a user interface for interaction where users can input their queries. It's designed to answer questions related to food ordering, specifically mimicking a restaurant environment like KFC.
 
 ## 👥  Developers
 - Edwin Mahendra
