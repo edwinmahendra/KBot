@@ -34,7 +34,7 @@
             <random>
                 <li>Selamat <star/>. Apa ada yang bisa saya bantu ?</li>
                 <li>Selamat <star/></li>
-                <li><star/> juga. Ada keperluhan apa ya ?</li>
+                <li><star/> juga. Ada keperluan apa ya ?</li>
             </random>
         </template>
     </category>
@@ -61,11 +61,11 @@
         <template><srai>IDENTITAS KAMU</srai></template>
     </category>
     <category>
-        <pattern>* NAMA MU SIAPA</pattern>
+        <pattern>* NAMA * SIAPA</pattern>
         <template><srai>IDENTITAS KAMU</srai></template>
     </category>
     <category>
-        <pattern>NAMA MU APA *</pattern>
+        <pattern>NAMA * APA *</pattern>
         <template><srai>IDENTITAS KAMU</srai></template>
     </category>
     <category>
@@ -124,5 +124,5 @@
             <srai>APA ITU KFC</srai>
         </template>
     </category>
- 
+
 </aiml>

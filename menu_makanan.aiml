@@ -353,4 +353,101 @@
            <srai>HALAL</srai>
        </template>
    </category>
+    <category>
+    <pattern>* HALAL</pattern>
+    <template>
+        <srai>HALAL</srai>
+    </template>
+    </category>
+
+    <category>
+        <pattern>HARGA MAKANAN</pattern>
+        <template>
+            1. Super 9 Plus (241.500)
+            2. Super 7 Plus (183.500)
+            3. Hamburger - semua varian (36.000)
+            4. Complete Combo 1 (46.500)
+            5. Complete Combo 2 (66.000)
+            6. Complete Combo 8 (170.000)
+            7. Super Combo 1 (72.000)
+            8. Super Combo 2(77.500)
+            9. French Fries Large (30.000)
+            10. French Fries Reguler (24.000)
+            11. Soup (6.500)
+            12. Cream Soup (13.000)
+            13. Spaghetti (24.500)
+            14. Perkedel (12.000)
+            15. Donat (11.000)
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA MAKANAN</pattern>
+        <template>
+            <srai>HARGA MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA MAKANAN *</pattern>
+        <template>
+            <srai>HARGA MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA MAKANAN *</pattern>
+        <template>
+            <srai>HARGA MAKANAN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>REKOMENDASI MAKANAN</pattern>
+        <template>
+            Anda bisa membeli Complete Combo 2 dengan porsi makan ideal dengan harga terjangkau, sudah paket minum dan 2 ayam.
+        </template>
+    </category>
+    <category>
+        <pattern>* REKOMENDASI MAKANAN</pattern>
+        <template>
+            <srai>REKOMENDASI MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REKOMENDASI MAKANAN *</pattern>
+        <template>
+            <srai>REKOMENDASI MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REKOMENDASI MAKANAN *</pattern>
+        <template>
+            <srai>REKOMENDASI MAKANAN</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BEDA AYAM CRISPY * ORIGINAL</pattern>
+        <template>
+            Ayam Original (OR) tidak pedas dan kulit terasa kurang renyah, dan ayam Crispy (HCC) itu kulitnya tebal banyak tepungnya dan rasanya agak sedikit pedas
+        </template>
+    </category>
+    <category>
+        <pattern>* BEDA * AYAM CRISPY * ORIGINAL *</pattern>
+        <template>
+            <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEDA * AYAM CRISPY * ORIGINAL *</pattern>
+        <template>
+            <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BEDANYA AYAM CRISPY * ORIGINAL *</pattern>
+        <template>
+            <srai>BEDA AYAM CRISPY * ORIGINAL</srai>
+        </template>
+    </category>
+
+
 </aiml>
