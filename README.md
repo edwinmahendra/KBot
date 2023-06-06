@@ -1,15 +1,15 @@
 # ChatBot with AIML and Text Correction
 
-## 📝 Description
+## 📝  Description
 This project is a simple chatbot application that integrates Artificial Intelligence Markup Language (AIML) for generating responses and utilizes a basic text correction functionality to correct the user's input message. It's designed to answer questions related to food ordering, specifically for a restaurant like KFC.
 
-## 👥 Developers
+## 👥  Developers
 - Edwin Mahendra
 - Johannes Baptista Adiatmaja
 
 Since this was made, we are students of Duta Wacana Christian University who have not yet graduated.
 
-## 🚀 How to Use
+## 🚀  How to Use
 1. Clone the repository.
 2. Install the required libraries as mentioned below.
 3. Run the `chatbot_backend.py` file to start the Flask server.
@@ -18,7 +18,7 @@ Since this was made, we are students of Duta Wacana Christian University who hav
 
 Note: To run this project, Python 3 is required.
 
-## 📚 Imported Libraries
+## 📚  Imported Libraries
 This project uses the following Python libraries:
 | Library | Import Code | Install Command |
 |---|---|---|
@@ -29,13 +29,13 @@ This project uses the following Python libraries:
 | [`flask`](https://pypi.org/project/Flask/) | `from flask import Flask, jsonify, request` | `pip install flask` |
 | [`flask_cors`](https://pypi.org/project/Flask-Cors/) | `from flask_cors import CORS` | `pip install Flask-Cors` |
 
-## 📢 Feedback
+## 📢  Feedback
 Your feedback is valuable to us in improving this chatbot application. If you have any issues, questions or suggestions, feel free to open an issue on this repository. We will try to address it as soon as possible.
 
-## 🏅 Credit
+## 🏅  Credit
 The text correction algorithm implemented in this project is inspired by Peter Norvig's article ["How to Write a Spelling Corrector"](https://norvig.com/spell-correct.html). Peter Norvig is a Director of Research at Google Inc, and his work in spelling correction and natural language processing has significantly impacted the field. We'd like to express our gratitude for his substantial contribution to the community and for making his knowledge openly available for learning and improvement purposes.
 
-##  ⚠️ Disclaimer
+##  ⚠️  Disclaimer
 
 Please note that the content provided here does not originate from KFC or any of its affiliates. The food and drink menu items listed here are inspired by the offerings of KFC Indonesia, and are used purely for illustrative purposes. 
 
