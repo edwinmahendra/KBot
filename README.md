@@ -10,7 +10,7 @@ This project is a simple chatbot application that integrates Artificial Intellig
 ## How to Use
 1. Clone the repository.
 2. Install the required libraries as mentioned below.
-3. Run the `app.py` file to start the Flask server.
+3. Run the `chatbot_backend.py` file to start the Flask server.
 4. Navigate to `localhost:5001` on your browser to access the chatbot UI.
 5. You can chat with the bot by typing your questions in the chatbox.
 
