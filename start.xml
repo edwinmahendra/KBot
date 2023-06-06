@@ -6,7 +6,7 @@
         <template>
             <learn>menu_makanan.aiml</learn>
             <learn>awal.aiml</learn>
-            
+            <learn>pemesanan.aiml</learn>
         </template>
     </category>
 </aiml>

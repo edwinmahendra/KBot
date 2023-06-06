@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+    <!-- pemesanan.aiml -->
+    <category>
+        <pattern>PESAN</pattern>
+        <template>
+            Untuk cara memesan makanan, jika anda sedang berada di kfc, maka anda harus mengantri ke kasir dan memesan makanan disana ^
+            Jika anda sedang tidak berada di kfc, maka anda bisa memesan semua menu makanan atau minuman KFC melalui aplikasi GoJek dan Grab
+        </template>
+    </category>
+    <category>
+        <pattern>ORDER</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CARA MEMESAN *</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CARA MEMESAN *</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* CARA MEMESAN</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+   <category>
+        <pattern>INFORMASI PESANAN *</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INFORMASI PESANAN</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PANDUAN MEMESAN *</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PANDUAN MEMESAN</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PROSEDUR PESANAN *</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PROSEDUR PESANAN</pattern>
+        <template>
+            <srai>PESAN</srai>
+        </template>
+    </category>
+</aiml>
