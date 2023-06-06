@@ -160,19 +160,19 @@
        </template>
    </category>
    <category>
-       <pattern>* OR BURGER</pattern>
+       <pattern>* OR BURGER *</pattern>
        <template>
            OR Burger adalah Burger yang diisi dengan daging ayam KFC Original sehingga tidak peda
        </template>
    </category>
    <category>
-       <pattern>* COLONEL BURGER</pattern>
+       <pattern>* COLONEL BURGER *</pattern>
        <template>
            Colonel Burger adalah sajian burger andalan kami yang berisi ayam goreng filet bagian dada dengan kerenyahan luar biasa, selada segar, tomat, bawang merah, dan mayo manis
        </template>
    </category>
    <category>
-       <pattern>* FISH BURGER</pattern>
+       <pattern>* FISH BURGER *</pattern>
        <template>
            Fish burger adalah burger yang terbuat dari fish fillet, dengan selada dan mayonaise yang enak
        </template>

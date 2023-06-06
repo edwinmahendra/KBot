@@ -1,0 +1,180 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+    <!-- menu_minuman.aiml -->
+    <category>
+       <pattern>MENU MINUMAN</pattern>
+       <template>
+           Berikut adalah menu MINUMAN di KFC: ^
+           1. Coca Cola ^
+           2. Sprite ^
+           3. Fanta ^
+           4. Mocha Float ^
+           5. Mango Float ^
+           6. Ice Coffee Nescafe ^
+           7. Hot Black Coffee Nescafe ^
+           8. Mineral Water ^
+       </template>
+   </category>
+   <category>
+       <pattern>MENU MINUMAN *</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>* MENU MINUMAN *</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>* KATEGORI MINUMAN *</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>* KATEGORI MINUMAN</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>KATEGORI MINUMAN *</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>KATEGORI MINUMAN</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>* MENU MINUMAN * KFC *</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>MENU MINUMAN * KFC</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>* MENU MINUMAN DI KFC</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>HALAL</pattern>
+       <template>
+           Semua MINUMAN yang kami jual 100% HALAL
+       </template>
+   </category>
+       <category>
+       <pattern>* HALAL *</pattern>
+       <template>
+           <srai>HALAL</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>HALAL *</pattern>
+       <template>
+           <srai>HALAL</srai>
+       </template>
+   </category>
+    <category>
+    <pattern>* HALAL</pattern>
+    <template>
+        <srai>HALAL</srai>
+    </template>
+    </category>
+
+    <category>
+        <pattern>HARGA MINUMAN</pattern>
+        <template>
+            1. Coca Cola (11.000) ^
+           2. Sprite (11.000) ^
+           3. Fanta (11.000) ^
+           4. Mocha Float (15.000) ^
+           5. Mango Float (10.000) ^
+           6. Ice Coffee Nescafe (10.000) ^
+           7. Hot Black Coffee Nescafe (8.000) ^
+           8. Mineral Water (8.000) ^
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA MINUMAN</pattern>
+        <template>
+            <srai>HARGA MINUMAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA MINUMAN *</pattern>
+        <template>
+            <srai>HARGA MINUMAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA MINUMAN *</pattern>
+        <template>
+            <srai>HARGA MINUMAN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>REKOMENDASI MINUMAN</pattern>
+        <template>
+            Anda bisa membeli Mocha Float yang merupakan menu andalan kami di KFC. Perpaduan rasa cokelat, kopi, dan es krim vanilla yang nikmat mampu menghilangkan dahaga siapa pun yang meminumnya.
+        </template>
+    </category>
+    <category>
+        <pattern>* REKOMENDASI MINUMAN</pattern>
+        <template>
+            <srai>REKOMENDASI MINUMAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* REKOMENDASI MINUMAN *</pattern>
+        <template>
+            <srai>REKOMENDASI MINUMAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>REKOMENDASI MINUMAN *</pattern>
+        <template>
+            <srai>REKOMENDASI MINUMAN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOCHA FLOAT</pattern>
+        <template>
+            Mocha Float adalah minuman yang terbuat dari cokelat, kopi, dan es krim vanilla
+        </template>
+    </category>
+    <category>
+        <pattern>* MOCHA FLOAT *</pattern>
+        <template>
+            <srai>MOCHA FLOAT</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MANGO FLOAT</pattern>
+        <template>
+            Mango Float terbuat dari rasa mangga yang manis dan segar dengan es krim vanilla yang creamy serta jelly yang kenyal
+        </template>
+    </category>
+    <category>
+        <pattern>* MANGO FLOAT *</pattern>
+        <template>
+            <srai>MANGO FLOAT</srai>
+        </template>
+    </category>
+
+</aiml>
