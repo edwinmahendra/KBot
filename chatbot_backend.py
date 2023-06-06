@@ -77,10 +77,10 @@ def create_app():
         response_words = bot.get_response(pesanFix).split()
 
         # Substitute "^" with "<br>" in the response
-        tampungRespond = " ".join("<br>" if word == "^" else word for word in response_words)
+        response_bot = " ".join("<br>" if word == "^" else word for word in response_words)
 
         # Return the corrected response
-        return jsonify({"message": tampungRespond.strip()})
+        return jsonify({"message": response_bot.strip()})
 
     return app
 
