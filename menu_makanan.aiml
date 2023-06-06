@@ -120,7 +120,7 @@
    <category>
        <pattern>HAMBURGER</pattern>
        <template>
-           "Ada OR Burger, Colonel Burger, Fish Burger, Crispy Burger
+           Ada OR Burger, Colonel Burger, Fish Burger, Crispy Burger
        </template>
    </category>
    <category>
@@ -160,7 +160,7 @@
        </template>
    </category>
    <category>
-       <pattern>* OR BURGER *</pattern>
+       <pattern>* OR BURGER</pattern>
        <template>
            OR Burger adalah Burger yang diisi dengan daging ayam KFC Original sehingga tidak pedas
        </template>

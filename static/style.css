@@ -12,12 +12,13 @@ body {
 }
 
 *, html {
-    --primaryGradient: #0FAE86;
-    --secondaryGradient: #0FAE86;
+    --primaryGradient: #91080D;
+    --secondaryGradient: #91080D;
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #0FAE86;
+    --primary: #91080D;
 }
+
 
 /* CHATBOX
 =============== */
@@ -116,6 +117,11 @@ body {
 
 .chatbox__image--header {
     margin-right: 15px;
+}
+
+.chatbox__image--header {
+    width: 48px;
+    height: 48px;
 }
 
 .chatbox__heading--header {

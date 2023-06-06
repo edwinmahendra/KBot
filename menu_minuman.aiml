@@ -22,6 +22,12 @@
        </template>
    </category>
    <category>
+       <pattern>* MENU MINUMAN</pattern>
+       <template>
+           <srai>MENU MINUMAN</srai>
+       </template>
+   </category>
+   <category>
        <pattern>* MENU MINUMAN *</pattern>
        <template>
            <srai>MENU MINUMAN</srai>
