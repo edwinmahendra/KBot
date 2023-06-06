@@ -7,6 +7,8 @@ This project is a simple chatbot application that integrates Artificial Intellig
 - Edwin Mahendra
 - Johannes Baptista Adiatmaja
 
+Since this was made, we are students of Duta Wacana Christian University who have not yet graduated.
+
 ## How to Use
 1. Clone the repository.
 2. Install the required libraries as mentioned below.
