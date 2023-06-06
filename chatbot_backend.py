@@ -14,7 +14,8 @@ class Bot:
         self._learn_aiml()
 
     def _learn_aiml(self):
-        self.kernel.bootstrap(learnFiles="start.xml", commands="KFC")
+        self.kernel.learn("start.xml")
+        self.kernel.respond("KFC")
         self.kernel.saveBrain("kbot.bot")
 
     def get_response(self, pesan):
