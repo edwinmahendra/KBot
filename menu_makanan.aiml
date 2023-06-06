@@ -4,15 +4,15 @@
     <category>
        <pattern>MENU MAKANAN</pattern>
        <template>
-           Berikut adalah menu makanan di KFC:
-           1. Super 9 Plus
-           2. Super 7 Plus
-           3. Hamburger
-           4. Complete Combo 1
-           5. Complete Combo 2
-           6. Complete Combo 8
-           7. Super Combo 1
-           8. Super Combo 2
+           Berikut adalah menu makanan di KFC: ^
+           1. Super 9 Plus ^
+           2. Super 7 Plus ^
+           3. Hamburger ^
+           4. Complete Combo 1 ^
+           5. Complete Combo 2 ^
+           6. Complete Combo 8 ^
+           7. Super Combo 1 ^
+           8. Super Combo 2 ^
        </template>
    </category>
    <category>
@@ -363,21 +363,21 @@
     <category>
         <pattern>HARGA MAKANAN</pattern>
         <template>
-            1. Super 9 Plus (241.500)
-            2. Super 7 Plus (183.500)
-            3. Hamburger - semua varian (36.000)
-            4. Complete Combo 1 (46.500)
-            5. Complete Combo 2 (66.000)
-            6. Complete Combo 8 (170.000)
-            7. Super Combo 1 (72.000)
-            8. Super Combo 2(77.500)
-            9. French Fries Large (30.000)
-            10. French Fries Reguler (24.000)
-            11. Soup (6.500)
-            12. Cream Soup (13.000)
-            13. Spaghetti (24.500)
-            14. Perkedel (12.000)
-            15. Donat (11.000)
+            1. Super 9 Plus (241.500) ^
+            2. Super 7 Plus (183.500) ^
+            3. Hamburger - semua varian (36.000) ^
+            4. Complete Combo 1 (46.500) ^
+            5. Complete Combo 2 (66.000) ^
+            6. Complete Combo 8 (170.000) ^
+            7. Super Combo 1 (72.000) ^
+            8. Super Combo 2(77.500) ^
+            9. French Fries Large (30.000) ^
+            10. French Fries Reguler (24.000) ^
+            11. Soup (6.500) ^
+            12. Cream Soup (13.000) ^
+            13. Spaghetti (24.500) ^
+            14. Perkedel (12.000) ^
+            15. Donat (11.000) ^
         </template>
     </category>
     <category>

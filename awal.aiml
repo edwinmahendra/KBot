@@ -125,4 +125,86 @@
         </template>
     </category>
 
+    <category>
+        <pattern>BERDIRI TANGGAL BERAPA</pattern>
+        <template>
+            KFC didirikan pada 24 September 1952 di Salt Lake City, Utah, United States
+        </template>
+    </category>
+    <category>
+        <pattern>* BERDIRI * BERAPA</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERDIRI * BERAPA</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERDIRI *</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERDIRI * BERAPA *</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BERDIRI KAPAN</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KAPAN * DIDIRIKAN</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PENDIRI KFC</pattern>
+        <template>
+            <random>
+                <li>KFC pertama kali didirikan oleh Kolonen Harland Sanders</li>
+                <li>Kolonel Sanders</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>* PENDIRI KFC *</pattern>
+        <template>
+            <srai>PENDIRI KFC</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PENDIRI KFC *</pattern>
+        <template>
+            <srai>PENDIRI KFC</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* PENDIRI KFC</pattern>
+        <template>
+            <srai>PENDIRI KFC</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DIDIRIKAN OLEH</pattern>
+        <template>
+            <srai>PENDIRI KFC</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* DIDIRIKAN OLEH *</pattern>
+        <template>
+            <srai>PENDIRI KFC</srai>
+        </template>
+    </category>
 </aiml>

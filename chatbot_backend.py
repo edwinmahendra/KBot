@@ -14,15 +14,12 @@ class Bot:
         self._learn_aiml()
 
     def _learn_aiml(self):
-        if os.path.isfile("kbot.bot"):
-            self.kernel.bootstrap(brainFile="kbot.bot")
-        else:
-            self.kernel.bootstrap(learnFiles="start.xml", commands="KFC")
-            self.kernel.saveBrain("kbot.bot")
+        self.kernel.bootstrap(learnFiles="start.xml", commands="KFC")
+        self.kernel.saveBrain("kbot.bot")
 
     def get_response(self, pesan):
         response = self.kernel.respond(pesan)
-        return response if response else "Maaf... saya kurang mengerti"
+        return response if response else "Mohon maaf, saya tidak memahami pesan anda"
     
 class TextCorrection:
     def __init__(self, corpus):
@@ -71,15 +68,19 @@ def create_app():
         pesan = request.get_json()["message"]
         print(pesan)
         
-        pesanFix = ""
-        pesanArray = pesan.split(" ")
-        for i in pesanArray:
-            pesanFix += text_correction.correction(i) + " "
-            
+        # Correct each word in the message
+        pesanFix = " ".join(text_correction.correction(word) for word in pesan.split())
+
         print("Hasil Koreksi : " + pesanFix)
-        response = bot.get_response(pesanFix)
-        
-        return jsonify({"message": response})
+
+        # Get bot's response and split it into words
+        response_words = bot.get_response(pesanFix).split()
+
+        # Substitute "^" with "<br>" in the response
+        tampungRespond = " ".join("<br>" if word == "^" else word for word in response_words)
+
+        # Return the corrected response
+        return jsonify({"message": tampungRespond.strip()})
 
     return app
 
