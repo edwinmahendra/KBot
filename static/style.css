@@ -119,10 +119,7 @@ body {
     margin-right: 15px;
 }
 
-.chatbox__image--header {
-    width: 48px;
-    height: 48px;
-}
+
 
 .chatbox__heading--header {
     font-size: 1.2rem;

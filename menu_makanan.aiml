@@ -334,32 +334,6 @@
        </template>
    </category>
 
-
-   <category>
-       <pattern>HALAL</pattern>
-       <template>
-           Semua makanan yang kami jual 100% HALAL
-       </template>
-   </category>
-       <category>
-       <pattern>* HALAL *</pattern>
-       <template>
-           <srai>HALAL</srai>
-       </template>
-   </category>
-   <category>
-       <pattern>HALAL *</pattern>
-       <template>
-           <srai>HALAL</srai>
-       </template>
-   </category>
-    <category>
-    <pattern>* HALAL</pattern>
-    <template>
-        <srai>HALAL</srai>
-    </template>
-    </category>
-
     <category>
         <pattern>HARGA MAKANAN</pattern>
         <template>

@@ -24,35 +24,62 @@ class Bot:
     
 class TextCorrection:
     def __init__(self, corpus):
-        self.WORDS = Counter(self.words(open(corpus).read()))
+         # The constructor that initializes a Counter with words from the given corpus.
+        self.words_counter = Counter(self.extract_words(open(corpus).read()))
 
-    def words(self, text):
+    def extract_words(self, text):
+        # This function extracts all the words from the given text using regex.
         return re.findall(r'\w+', text.lower())
 
-    def P(self, word, N=None):
-        N = N if N else sum(self.WORDS.values())
-        return self.WORDS[word] / N
+    def probability(self, word, total=None):
+        # This function calculates the probability of the given word by dividing the count of the word
+        # by the total number of words. If total is not given, it calculates the total.
+        total = total if total else sum(self.words_counter.values())
+        return self.words_counter[word] / total
 
-    def correction(self, word):
-        return max(self.candidates(word), key=self.P)
+    def correct_word(self, word):
+        # This function corrects a given word by choosing the most probable word from its possible corrections.
+        return max(self.possible_corrections(word), key=self.probability)
 
-    def candidates(self, word):
-        return (self.known([word]) or self.known(self.edits1(word)) or self.known(self.edits2(word)) or [word])
+    def possible_corrections(self, word):
+        # This function returns the possible corrections for a given word. The corrections can be a known word,
+        # words at an edit distance of 1, words at an edit distance of 2, or the word itself.
+        return (self.known([word]) or self.known(self.edit_distance_1(word)) 
+                or self.known(self.edit_distance_2(word)) or [word])
 
     def known(self, words):
-        return set(w for w in words if w in self.WORDS)
+        # This function returns the words that are known, i.e., the words that exist in the word counter.
+        return set(w for w in words if w in self.words_counter)
 
-    def edits1(self, word):
+    def edit_distance_1(self, word):
+        # This function returns the words that are at an edit distance of 1 from the given word.
         letters    = 'abcdefghijklmnopqrstuvwxyz'
-        splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
-        deletes    = [L + R[1:]               for L, R in splits if R]
-        transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R)>1]
-        replaces   = [L + c + R[1:]           for L, R in splits if R for c in letters]
-        inserts    = [L + c + R               for L, R in splits for c in letters]
+        splits     = [(word[:i], word[i:]) for i in range(len(word) + 1)]
+        deletes    = [self.delete_letter(L, R) for L, R in splits if R]
+        transposes = [self.transpose_letters(L, R) for L, R in splits if len(R)>1]
+        replaces   = [self.replace_letter(L, R, c) for L, R in splits if R for c in letters]
+        inserts    = [self.insert_letter(L, R, c) for L, R in splits for c in letters]
         return set(deletes + transposes + replaces + inserts)
 
-    def edits2(self, word):
-        return (e2 for e1 in self.edits1(word) for e2 in self.edits1(e1))
+    def edit_distance_2(self, word):
+        # This function returns the words that are at an edit distance of 2 from the given word.
+        return (e2 for e1 in self.edit_distance_1(word) for e2 in self.edit_distance_1(e1))
+
+    def delete_letter(self, left, right):
+        # This function deletes a letter from a word, given the left and right parts of the word.
+        return left + right[1:]
+
+    def transpose_letters(self, left, right):
+        # This function transposes two letters of a word, given the left and right parts of the word.
+        return left + right[1] + right[0] + right[2:]
+
+    def replace_letter(self, left, right, c):
+        # This function replaces a letter of a word with a given character, given the left and right parts of the word.
+        return left + c + right[1:]
+
+    def insert_letter(self, left, right, c):
+        # This function inserts a given character into a word, given the left and right parts of the word.
+        return left + c + right
 
 def create_app():
     app = Flask(__name__)
@@ -70,15 +97,15 @@ def create_app():
         print(pesan)
         
         # Correct each word in the message
-        pesanFix = " ".join(text_correction.correction(word) for word in pesan.split())
-
-        print("Hasil Koreksi : " + pesanFix)
+        pesanFix = " ".join(text_correction.correct_word(word) for word in pesan.split())
+        print("User Chat    : " + pesanFix)
 
         # Get bot's response and split it into words
         response_words = bot.get_response(pesanFix).split()
 
         # Substitute "^" with "<br>" in the response
         response_bot = " ".join("<br>" if word == "^" else word for word in response_words)
+        print("Bot      : " + response_bot)
 
         # Return the corrected response
         return jsonify({"message": response_bot.strip()})
