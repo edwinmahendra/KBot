@@ -1,0 +1,349 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+    <!-- manu_makanan.aiml -->
+    <category>
+        <pattern>MENU MAKANAN</pattern>
+        <template>
+            Berikut adalah menu makanan di KFC: <br>
+            1. Super 9 Plus<br>
+            2. Super 7 Plus
+            3. Hamburger
+            4. Complete Combo 1
+            5. Complete Combo 2
+            6. Complete Combo 8
+            7. Super Combo 1
+            8. Super Combo 2
+        </template>
+    </category>
+    <category>
+        <pattern>MENU MAKANAN *</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MENU MAKANAN *</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* KATEGORI MAKANAN *</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* KATEGORI MAKANAN</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KATEGORI MAKANAN *</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KATEGORI MAKANAN</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MENU MAKANAN * KFC *</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MENU MAKANAN * KFC</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MENU MAKANAN DI KFC</pattern>
+        <template>
+            <srai>MENU MAKANAN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER 9 PLUS</pattern>
+        <template>
+            Super 9 plus adalah paket ayam dari KFC yang menawarkan 9 pcs ayam, 7 puding, dan 7 nasi.
+        </template>
+    </category>
+    <category>
+        <pattern>* SUPER 9 PLUS *</pattern>
+        <template>
+            <srai>SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER 9 PLUS *</pattern>
+        <template>
+            <srai>SUPER 9 PLUS</srai>
+        </template>
+    </category>
+        <category>
+        <pattern>* SUPER 9 PLUS</pattern>
+        <template>
+            <srai>SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER 7 PLUS</pattern>
+        <template>
+            Super 7 plus adalah paket ayam dari KFC yang menawarkan 7 pcs ayam, 7 puding, dan 7 nasi.
+        </template>
+    </category>
+    <category>
+        <pattern>* SUPER 7 PLUS *</pattern>
+        <template>
+            <srai>SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER 7 PLUS *</pattern>
+        <template>
+            <srai>SUPER 7 PLUS</srai>
+        </template>
+    </category>
+        <category>
+        <pattern>* SUPER 7 PLUS</pattern>
+        <template>
+            <srai>SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAMBURGER</pattern>
+        <template>
+            "Ada OR Burger, Colonel Burger, Fish Burger, Crispy Burger
+        </template>
+    </category>
+    <category>
+        <pattern>* BURGER *</pattern>
+        <template>
+            <srai>HAMBURGER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BURGER *</pattern>
+        <template>
+            <srai>HAMBURGER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* BURGER</pattern>
+        <template>
+            <srai>HAMBURGER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAMBURGER *</pattern>
+        <template>
+            <srai>HAMBURGER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAMBURGER *</pattern>
+        <template>
+            <srai>HAMBURGER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HAMBURGER</pattern>
+        <template>
+            <srai>HAMBURGER</srai>
+        </template>
+    </category> 
+    <category>
+        <pattern>* OR BURGER</pattern>
+        <template>
+            OR Burger adalah Burger yang diisi dengan daging ayam KFC Original sehingga tidak peda
+        </template>
+    </category>
+    <category>
+        <pattern>* COLONEL BURGER</pattern>
+        <template>
+            Colonel Burger adalah sajian burger andalan kami yang berisi ayam goreng filet bagian dada dengan kerenyahan luar biasa, selada segar, tomat, bawang merah, dan mayo manis
+        </template>
+    </category>
+    <category>
+        <pattern>* FISH BURGER</pattern>
+        <template>
+            Fish burger adalah burger yang terbuat dari fish fillet, dengan selada dan mayonaise yang enak
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMPLETE COMBO 1</pattern>
+        <template>
+            Complete Combo 1 adalah paket makan ayam (dada/paha/sayap), nasi, dan 1 minum soda coca cola
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLETE COMBO 1 *</pattern>
+        <template>
+            <srai>COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLETE COMBO 1 *</pattern>
+        <template>
+            <srai>COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+        <category>
+        <pattern>* COMPLETE COMBO 1</pattern>
+        <template>
+            <srai>COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMPLETE COMBO 2</pattern>
+        <template>
+            Complete Combo 2 adalah paket makan dengan 2 ayam (dada/paha/sayap), nasi, dan 1 minuman yang bisa dipilih (air mineral, soda, dan teh ocha)
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLETE COMBO 2 *</pattern>
+        <template>
+            <srai>COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLETE COMBO 2 *</pattern>
+        <template>
+            <srai>COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+        <category>
+        <pattern>* COMPLETE COMBO 2</pattern>
+        <template>
+            <srai>COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMPLETE COMBO 8</pattern>
+        <template>
+            Complete Combo 8 adalah paket makan dengan 5 ayam (3 dada dan 2 paha), 3 nasi, dan 3 minuman yang bisa dipilih (air mineral, soda, dan teh ocha)
+        </template>
+    </category>
+    <category>
+        <pattern>* COMPLETE COMBO 8 *</pattern>
+        <template>
+            <srai>COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLETE COMBO 8 *</pattern>
+        <template>
+            <srai>COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+        <category>
+        <pattern>* COMPLETE COMBO 8</pattern>
+        <template>
+            <srai>COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SUPER COMBO 1</pattern>
+        <template>
+            Super Combo 1 adalah paket 2 ayam, 1 kentang goreng, dan 1 kfc soup. Paket ini belum termasuk minum.
+        </template>
+    </category>
+    <category>
+        <pattern>* SUPER COMBO 1 *</pattern>
+        <template>
+            <srai>SUPER COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER COMBO 1 *</pattern>
+        <template>
+            <srai>SUPER COMBO 1</srai>
+        </template>
+    </category>
+        <category>
+        <pattern>* SUPER COMBO 1</pattern>
+        <template>
+            <srai>SUPER COMBO 1</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SUPER COMBO 2</pattern>
+        <template>
+            Super Kombo 2 adalah paket 3 ayam (wajib memilih 2 dada dan 1 paha), 1 kentang goreng, dan 1 puding. Paket ini belum termasuk minum.
+        </template>
+    </category>
+    <category>
+        <pattern>* SUPER COMBO 2 *</pattern>
+        <template>
+            <srai>SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER COMBO 2 *</pattern>
+        <template>
+            <srai>SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUPER COMBO 2</pattern>
+        <template>
+            <srai>SUPER COMBO 2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MENU MAKANAN LAIN</pattern>
+        <template>
+            Ya, ada. Kamu bisa memesan kentang goreng, soup, cream soup, spaghetti, perkedel, dan donat
+        </template>
+    </category>
+    <category>
+        <pattern>* MENU MAKANAN LAIN</pattern>
+        <template>
+            <srai>MENU MAKANAN LAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MENU MAKANAN LAIN *</pattern>
+        <template>
+            <srai>MENU MAKANAN LAIN</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* MAKANAN LAIN *</pattern>
+        <template>
+            <srai>MENU MAKANAN LAIN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HALAL</pattern>
+        <template>
+            Semua makanan yang kami jual 100% HALAL
+        </template>
+    </category>
+        <category>
+        <pattern>* HALAL *</pattern>
+        <template>
+            <srai>HALAL</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HALAL *</pattern>
+        <template>
+            <srai>HALAL</srai>
+        </template>
+    </category>
+</aiml>
