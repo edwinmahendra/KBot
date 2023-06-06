@@ -1,0 +1,128 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+    <!-- awal.aiml -->
+    <category>
+        <pattern>HALO</pattern>
+        <template>
+            <random>
+                <li>Halo... Apa ada yang bisa saya bantu ?</li>
+                <li>Hai... Apa ada yang bisa saya bantu ?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>HALO *</pattern>
+        <template>
+            <srai>HALO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HALO *</pattern>
+        <template>
+            <srai>HALO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HAI *</pattern>
+        <template>
+            <srai>HALO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SELAMAT *</pattern>
+        <template>
+            <random>
+                <li>Selamat <star/>. Apa ada yang bisa saya bantu ?</li>
+                <li>Selamat <star/></li>
+                <li><star/> juga. Ada keperluhan apa ya ?</li>
+            </random>
+        </template>
+    </category>
+   <category>
+        <pattern>DENGAN SIAPA SAYA BERINTERAKSI</pattern>
+        <template>
+            <random>
+                <li>Kamu sedang berinteraksi dengan KFC-Bot</li>
+                <li>Kamu sedang berbicara dengan KFC-Bot</li>
+                <li>Yang sedang kamu ajak bicara adalah KFC-Bot</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IDENTITAS KAMU</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>SIAPA IDENTITAS KAMU</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>IDENTITASMU SIAPA</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>* NAMA MU SIAPA</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>NAMA MU APA *</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>SIAPA NAMAMU</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>NAMAMU SIAPA</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>NAMAMU SIAPA *</pattern>
+        <template><srai>IDENTITAS KAMU</srai></template>
+    </category>
+    <category>
+        <pattern>IDENTITAS KAMU</pattern>
+        <template>
+            Identitas saya KFC-Bot.
+        </template>
+    </category>
+    <category>
+        <pattern>NAMA MU APA</pattern>
+        <template>
+            Saya adalah KFC-Bot
+        </template>
+    </category>
+    <category>
+        <pattern>* KABARMU *</pattern>
+        <template><srai>APA KABAR</srai></template>
+    </category>
+    <category>
+        <pattern>* KABAR *</pattern>
+        <template><srai>APA KABAR</srai></template>
+    </category>
+    <category>
+        <pattern>APA KABAR</pattern>
+        <template>Kabar baik</template>
+    </category>
+    <category>
+        <pattern>* KAMU KFC-BOT *</pattern>
+        <template>Ya saya KFC-Bot</template>
+    </category>
+    <category>
+        <pattern>APA ITU KFC</pattern>
+        <template>KFC (kependekan dari Kentucky Fried Chicken) adalah jaringan restoran cepat saji asal Amerika Serikat yang berkantor pusat di Louisville, Kentucky, yang berspesialisasi dalam membuat dan menjual ayam goreng dengan daging ayam sebagai bahan utamanya.</template>
+    </category>
+    <category>
+        <pattern>CERITAKAN TENTANG KFC</pattern>
+        <template>
+            <srai>APA ITU KFC</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KFC * APA *</pattern>
+        <template>
+            <srai>APA ITU KFC</srai>
+        </template>
+    </category>
+ 
+</aiml>

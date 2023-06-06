@@ -2,15 +2,11 @@
 <aiml version="2" encoding="ISO-8859-1">
     <!-- start.xml -->
     <category>
-        <pattern>CAFE</pattern>
+        <pattern>KFC</pattern>
         <template>
-            <learn>pengenalan_bot.aiml</learn>
-            <learn>qna_cafe_item_makanan.aiml</learn>
-            <learn>qna_cafe_item_minuman.aiml</learn>
-            <learn>qna_cafe_item_harga.aiml</learn>
-            <learn>qna_cafe_order.aiml</learn>
-            <learn>qna_cafe_service.aiml</learn>
-            <learn>qna_cafe_about.aiml</learn>
+            <learn>menu_makanan.aiml</learn>
+            <learn>awal.aiml</learn>
+            
         </template>
     </category>
 </aiml>
