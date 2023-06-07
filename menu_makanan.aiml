@@ -441,4 +441,26 @@
         </template>
     </category> 
 
+    <category>
+        <pattern>* MENU *</pattern>
+        <template>
+            unknown_menu
+        </template>
+    </category> 
+    <category>
+        <pattern>* MENU</pattern>
+        <template>
+            unknown_menu
+        </template>
+    </category> 
+    <category>
+        <pattern>MENU *</pattern>
+        <template>
+            unknown_menu
+        </template>
+    </category> 
+
+    
+
+
 </aiml>

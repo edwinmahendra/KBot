@@ -1,3 +1,4 @@
+import random
 import aiml
 import os
 
@@ -12,6 +13,12 @@ class Bot:
     def __init__(self, aiml_kernel=None):
         self.kernel = aiml_kernel if aiml_kernel else aiml.Kernel()
         self._learn_aiml()
+        self.unknown_responses = [
+            "Mohon maaf, saya tidak memahami pesan anda.",
+            "Maaf, saya tidak mengerti apa yang Anda maksud.",
+            "Saya tidak yakin apa yang Anda coba katakan. Bisakah Anda ulangi?",
+            "Maaf, saya masih belajar. Bisakah Anda menggambarkan itu dengan cara lain?",
+        ]
 
     def _learn_aiml(self):
         self.kernel.learn("start.xml")
@@ -20,7 +27,10 @@ class Bot:
 
     def get_response(self, pesan):
         response = self.kernel.respond(pesan)
-        return response if response else "Mohon maaf, saya tidak memahami pesan anda"
+        if response == "unknown_menu":
+            return "Maaf, menu yang anda katakan/tanyakan tidak ada di menu kami."
+        else:
+            return response if response else random.choice(self.unknown_responses)
     
 class TextCorrection:
     def __init__(self, corpus):
