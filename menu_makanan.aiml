@@ -442,25 +442,36 @@
     </category> 
 
     <category>
-        <pattern>* MENU *</pattern>
+        <pattern>UNKNOWN MENU</pattern>
         <template>
             unknown_menu
+        </template>
+    </category> 
+    <category>
+        <pattern>* MENU *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
         </template>
     </category> 
     <category>
         <pattern>* MENU</pattern>
         <template>
-            unknown_menu
+            <srai>UNKNOWN MENU</srai>
         </template>
     </category> 
     <category>
         <pattern>MENU *</pattern>
         <template>
-            unknown_menu
+            <srai>UNKNOWN MENU</srai>
         </template>
-    </category> 
+    </category>
 
-    
+    <category>
+        <pattern>APA *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
 
 
 </aiml>

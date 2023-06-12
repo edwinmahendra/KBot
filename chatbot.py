@@ -19,6 +19,11 @@ class Bot:
             "Saya tidak yakin apa yang Anda coba katakan. Bisakah Anda ulangi?",
             "Maaf, saya masih belajar. Bisakah Anda menggambarkan itu dengan cara lain?",
         ]
+        self.menu_not_found_responses = [
+            "Maaf, menu {} tidak ada di menu kami.",
+            "Mohon maaf, kami tidak menyediakan menu {}.",
+            "Menu {}? Maaf, itu tidak tersedia di menu kami."
+        ]
 
     def _learn_aiml(self):
         self.kernel.learn("start.xml")
@@ -28,7 +33,22 @@ class Bot:
     def get_response(self, pesan):
         response = self.kernel.respond(pesan)
         if response == "unknown_menu":
-            return "Maaf, menu yang anda katakan/tanyakan tidak ada di menu kami."
+            menu_item = re.search(r'menu ([a-zA-Z0-9_-]+)', pesan)
+            unknown_item = re.search(r'apa itu ([a-zA-Z0-9_-]+)', pesan)
+            apa_sih_item = re.search(r'apa sih ([a-zA-Z0-9_-]+)', pesan)
+            if menu_item:
+                return random.choice(self.menu_not_found_responses).format(menu_item.group(1))
+            elif unknown_item:
+                return random.choice(self.menu_not_found_responses).format(unknown_item.group(1))
+            elif apa_sih_item:
+                return random.choice(self.menu_not_found_responses).format(apa_sih_item.group(1).split(' itu')[0])            
+            # if menu_item:
+            #     #berapa harga / adakah menu lotek then system will print maaf, menu {lotek} tidak ada di menu kami
+            #     return random.choice(self.menu_not_found_responses).format(menu_item.group(1))
+            # elif unknown_item:
+            #     return random.choice(self.menu_not_found_responses).format(unknown_item.group(1))
+            # else:
+            #     return "Maaf, saya tidak menemukan menu yang Anda tanyakan."
         else:
             return response if response else random.choice(self.unknown_responses)
     
