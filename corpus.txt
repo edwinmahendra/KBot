@@ -74,3 +74,6 @@ bisa
 7
 8
 9
+gado-gado
+lotek
+makaroni

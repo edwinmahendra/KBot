@@ -23,6 +23,12 @@
         </template>
     </category>
     <category>
+        <pattern>HAI</pattern>
+        <template>
+            <srai>HALO</srai>
+        </template>
+    </category>
+    <category>
         <pattern>HAI *</pattern>
         <template>
             <srai>HALO</srai>

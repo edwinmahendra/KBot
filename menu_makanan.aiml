@@ -232,19 +232,19 @@
 
 
    <category>
-       <pattern>COMPLETE COMBO 8</pattern>
+       <pattern>APA ITU COMPLETE COMBO 8</pattern>
        <template>
            Complete Combo 8 adalah paket makan dengan 5 ayam (3 dada dan 2 paha), 3 nasi, dan 3 minuman yang bisa dipilih (air mineral, soda, dan teh ocha)
        </template>
    </category>
    <category>
-       <pattern>* COMPLETE COMBO 8 *</pattern>
+       <pattern>APA * COMPLETE COMBO 8 *</pattern>
        <template>
            <srai>COMPLETE COMBO 8</srai>
        </template>
    </category>
    <category>
-       <pattern>COMPLETE COMBO 8 *</pattern>
+       <pattern>COMPLETE COMBO 8 * APA</pattern>
        <template>
            <srai>COMPLETE COMBO 8</srai>
        </template>
@@ -258,19 +258,19 @@
 
 
    <category>
-       <pattern>SUPER COMBO 1</pattern>
+       <pattern>APA ITU SUPER COMBO 1</pattern>
        <template>
            Super Combo 1 adalah paket 2 ayam, 1 kentang goreng, dan 1 kfc soup. Paket ini belum termasuk minum.
        </template>
    </category>
    <category>
-       <pattern>* SUPER COMBO 1 *</pattern>
+       <pattern>APA * SUPER COMBO 1 *</pattern>
        <template>
            <srai>SUPER COMBO 1</srai>
        </template>
    </category>
    <category>
-       <pattern>SUPER COMBO 1 *</pattern>
+       <pattern>SUPER COMBO 1 * APA</pattern>
        <template>
            <srai>SUPER COMBO 1</srai>
        </template>
@@ -284,19 +284,19 @@
 
 
    <category>
-       <pattern>SUPER COMBO 2</pattern>
+       <pattern>APA ITU SUPER COMBO 2</pattern>
        <template>
            Super Kombo 2 adalah paket 3 ayam (wajib memilih 2 dada dan 1 paha), 1 kentang goreng, dan 1 puding. Paket ini belum termasuk minum.
        </template>
    </category>
    <category>
-       <pattern>* SUPER COMBO 2 *</pattern>
+       <pattern>APA * SUPER COMBO 2 *</pattern>
        <template>
            <srai>SUPER COMBO 2</srai>
        </template>
    </category>
    <category>
-       <pattern>SUPER COMBO 2 *</pattern>
+       <pattern>SUPER COMBO 2 * APA</pattern>
        <template>
            <srai>SUPER COMBO 2</srai>
        </template>
@@ -467,11 +467,23 @@
     </category>
 
     <category>
-        <pattern>APA *</pattern>
+        <pattern>APA ITU *</pattern>
         <template>
             <srai>UNKNOWN MENU</srai>
         </template>
     </category>
 
+    <category>
+        <pattern>APA SIH *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
 
+    <category>
+        <pattern>ADA GAK *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
 </aiml>

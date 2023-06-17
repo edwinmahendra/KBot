@@ -33,56 +33,60 @@ class Bot:
     def get_response(self, pesan):
         response = self.kernel.respond(pesan)
         if response == "unknown_menu":
-            menu_item = re.search(r'menu ([a-zA-Z0-9_-]+)', pesan)
-            unknown_item = re.search(r'apa itu ([a-zA-Z0-9_-]+)', pesan)
-            apa_sih_item = re.search(r'apa sih ([a-zA-Z0-9_-]+)', pesan)
-            if menu_item:
-                return random.choice(self.menu_not_found_responses).format(menu_item.group(1))
-            elif unknown_item:
-                return random.choice(self.menu_not_found_responses).format(unknown_item.group(1))
-            elif apa_sih_item:
-                return random.choice(self.menu_not_found_responses).format(apa_sih_item.group(1).split(' itu')[0])            
-            # if menu_item:
-            #     #berapa harga / adakah menu lotek then system will print maaf, menu {lotek} tidak ada di menu kami
-            #     return random.choice(self.menu_not_found_responses).format(menu_item.group(1))
-            # elif unknown_item:
-            #     return random.choice(self.menu_not_found_responses).format(unknown_item.group(1))
-            # else:
-            #     return "Maaf, saya tidak menemukan menu yang Anda tanyakan."
+            patterns = [
+                (r'menu (.+)', self.menu_not_found_responses),
+                (r'apa itu (.+)', self.menu_not_found_responses),
+                (r'apa sih (.+)', self.menu_not_found_responses),
+                (r'bagaimana dengan menu (.+)', self.menu_not_found_responses),
+                (r'apa yang anda tahu tentang (.+)', self.menu_not_found_responses),
+                (r'bisakah anda memberi tahu saya tentang (.+)', self.menu_not_found_responses),
+            ]
+
+            for pattern, response_list in patterns:
+                match = re.search(pattern, pesan)
+                if match:
+                    item = match.group(1)
+                    # If the item ends with ' itu', remove it from the item
+                    if item.endswith(' itu'):
+                        item = item[:-4]
+                    return random.choice(response_list).format(item)
+
+            # If no patterns matched, return an unknown response
+            return random.choice(self.unknown_responses)
+            
         else:
             return response if response else random.choice(self.unknown_responses)
     
 class TextCorrection:
     def __init__(self, corpus):
-         # The constructor that initializes a Counter with words from the given corpus.
+        # Konstruktor yang menginisialisasi Counter dengan kata-kata dari korpus yang diberikan.
         self.words_counter = Counter(self.extract_words(open(corpus).read()))
 
     def extract_words(self, text):
-        # This function extracts all the words from the given text using regex.
+        # Fungsi ini mengekstrak semua kata dari teks yang diberikan menggunakan regex.
         return re.findall(r'\w+', text.lower())
 
     def probability(self, word, total=None):
-        # This function calculates the probability of the given word by dividing the count of the word
-        # by the total number of words. If total is not given, it calculates the total.
+        # Fungsi ini menghitung probabilitas kata yang diberikan dengan membagi jumlah kata dengan jumlah total kata
         total = total if total else sum(self.words_counter.values())
         return self.words_counter[word] / total
 
     def correct_word(self, word):
-        # This function corrects a given word by choosing the most probable word from its possible corrections.
+        # Fungsi ini mengoreksi kata yang diberikan dengan memilih kata yang paling mungkin dari kemungkinan koreksinya.
         return max(self.possible_corrections(word), key=self.probability)
 
     def possible_corrections(self, word):
-        # This function returns the possible corrections for a given word. The corrections can be a known word,
-        # words at an edit distance of 1, words at an edit distance of 2, or the word itself.
+        # Fungsi ini mengembalikan koreksi yang mungkin untuk kata yang diberikan. Koreksi dapat berupa kata yang sudah diketahui,
+        # kata dengan jarak edit 1, kata dengan jarak edit 2, atau kata itu sendiri.
         return (self.known([word]) or self.known(self.edit_distance_1(word)) 
                 or self.known(self.edit_distance_2(word)) or [word])
 
     def known(self, words):
-        # This function returns the words that are known, i.e., the words that exist in the word counter.
+        # Fungsi ini mengembalikan kata-kata yang diketahui, yaitu kata-kata yang ada dalam penghitung kata.
         return set(w for w in words if w in self.words_counter)
 
     def edit_distance_1(self, word):
-        # This function returns the words that are at an edit distance of 1 from the given word.
+        # Fungsi ini mengembalikan kata-kata yang berada pada jarak edit 1 dari kata yang diberikan.
         letters    = 'abcdefghijklmnopqrstuvwxyz'
         splits     = [(word[:i], word[i:]) for i in range(len(word) + 1)]
         deletes    = [self.delete_letter(L, R) for L, R in splits if R]
@@ -92,23 +96,23 @@ class TextCorrection:
         return set(deletes + transposes + replaces + inserts)
 
     def edit_distance_2(self, word):
-        # This function returns the words that are at an edit distance of 2 from the given word.
+        # Fungsi ini mengembalikan kata-kata yang berada pada jarak edit 2 dari kata yang diberikan.
         return (e2 for e1 in self.edit_distance_1(word) for e2 in self.edit_distance_1(e1))
 
     def delete_letter(self, left, right):
-        # This function deletes a letter from a word, given the left and right parts of the word.
+        # Fungsi ini menghapus huruf dari sebuah kata, dengan memperhatikan bagian kiri dan kanan kata tersebut.
         return left + right[1:]
 
     def transpose_letters(self, left, right):
-        # This function transposes two letters of a word, given the left and right parts of the word.
+        # Fungsi ini mentransposisikan dua huruf dari sebuah kata, dengan memberikan bagian kiri dan kanan dari kata tersebut.
         return left + right[1] + right[0] + right[2:]
 
     def replace_letter(self, left, right, c):
-        # This function replaces a letter of a word with a given character, given the left and right parts of the word.
+        # Fungsi ini menggantikan huruf dari sebuah kata dengan karakter tertentu, yang diberikan pada bagian kiri dan kanan kata tersebut.
         return left + c + right[1:]
 
     def insert_letter(self, left, right, c):
-        # This function inserts a given character into a word, given the left and right parts of the word.
+        # Fungsi ini menyisipkan karakter tertentu ke dalam sebuah kata, dengan memperhatikan bagian kiri dan kanan kata tersebut.
         return left + c + right
 
 def create_app():
