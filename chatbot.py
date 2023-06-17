@@ -45,7 +45,7 @@ class Bot:
                 match = re.search(pattern, pesan)
                 if match:
                     item = match.group(1)
-                    # Jika pesan diakhiri dengan ' itu', hapus item tersebut dari item
+                    # Jika coba pesan diakhiri dengan ' itu', hapus item tersebut dari item
                     if item.endswith(' itu'):
                         item = item[:-4]
                     return random.choice(response_list).format(item)
