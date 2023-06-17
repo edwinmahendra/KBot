@@ -1,6 +1,5 @@
 import random
 import aiml
-import os
 
 import re
 from collections import Counter
@@ -10,7 +9,7 @@ from flask_cors import CORS
 
 
 class Bot:
-    def __init__(self, aiml_kernel=None):
+    def __init__(self, aiml_kernel = None):
         self.kernel = aiml_kernel if aiml_kernel else aiml.Kernel()
         self._learn_aiml()
         self.unknown_responses = [
@@ -28,7 +27,7 @@ class Bot:
     def _learn_aiml(self):
         self.kernel.learn("start.xml")
         self.kernel.respond("KFC")
-        self.kernel.saveBrain("kbot.bot")
+        self.kernel.saveBrain("kbot.brn")
 
     def get_response(self, pesan):
         response = self.kernel.respond(pesan)
@@ -46,12 +45,11 @@ class Bot:
                 match = re.search(pattern, pesan)
                 if match:
                     item = match.group(1)
-                    # If the item ends with ' itu', remove it from the item
+                    # Jika pesan diakhiri dengan ' itu', hapus item tersebut dari item
                     if item.endswith(' itu'):
                         item = item[:-4]
                     return random.choice(response_list).format(item)
 
-            # If no patterns matched, return an unknown response
             return random.choice(self.unknown_responses)
             
         else:
