@@ -7,7 +7,6 @@ from collections import Counter
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 
-
 class Bot:
     def __init__(self, aiml_kernel = None):
         self.kernel = aiml_kernel if aiml_kernel else aiml.Kernel()
