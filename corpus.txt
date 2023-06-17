@@ -80,3 +80,6 @@ makaroni
 mau
 beli
 suka
+hola
+KFC-Bot
+anda
