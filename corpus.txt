@@ -77,3 +77,6 @@ bisa
 gado-gado
 lotek
 makaroni
+mau
+beli
+suka

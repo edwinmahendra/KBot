@@ -185,14 +185,44 @@
            Complete Combo 1 adalah paket makan ayam (dada/paha/sayap), nasi, dan 1 minum soda coca cola
        </template>
    </category>
-   <category>
-       <pattern>* COMPLETE COMBO 1 *</pattern>
+    <category>
+       <pattern>APA YANG DIMAKSUD COMPLETE COMBO 1</pattern>
+       <template>
+           <srai>COMPLETE COMBO 1</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>APA ITU COMPLETE COMBO 1</pattern>
+       <template>
+           <srai>COMPLETE COMBO 1</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>PENGERTIAN * COMPLETE COMBO 1</pattern>
+       <template>
+           <srai>COMPLETE COMBO 1</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>PENGERTIAN * COMPLETE COMBO 1 *</pattern>
+       <template>
+           <srai>COMPLETE COMBO 1</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>PENGERTIAN COMPLETE COMBO 1 *</pattern>
        <template>
            <srai>COMPLETE COMBO 1</srai>
        </template>
    </category>
    <category>
-       <pattern>COMPLETE COMBO 1 *</pattern>
+       <pattern>APA * COMPLETE COMBO 1 *</pattern>
+       <template>
+           <srai>COMPLETE COMBO 1</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>COMPLETE COMBO 1 * APA</pattern>
        <template>
            <srai>COMPLETE COMBO 1</srai>
        </template>
@@ -204,6 +234,48 @@
        </template>
    </category>
 
+   <category>
+        <pattern>HARGA COMPLETE COMBO 1</pattern>
+        <template>
+            Harga untuk Complete Combo 1 adalah 46.500.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * COMPLETE COMBO 1</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * COMPLETE COMBO 1</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK COMPLETE COMBO 1</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA COMPLETE COMBO 1 BERAPA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLETE COMBO 1 HARGANYA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI COMPLETE COMBO 1, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 1</srai>
+        </template>
+    </category>
 
    <category>
        <pattern>COMPLETE COMBO 2</pattern>
@@ -211,14 +283,50 @@
            Complete Combo 2 adalah paket makan dengan 2 ayam (dada/paha/sayap), nasi, dan 1 minuman yang bisa dipilih (air mineral, soda, dan teh ocha)
        </template>
    </category>
-   <category>
-       <pattern>* COMPLETE COMBO 2 *</pattern>
+    <category>
+       <pattern>APA ITU COMPLETE COMBO 2</pattern>
+       <template>
+            <srai>COMPLETE COMBO 2</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>APA YANG DIMAKSUD COMPLETE COMBO 2</pattern>
        <template>
            <srai>COMPLETE COMBO 2</srai>
        </template>
    </category>
    <category>
-       <pattern>COMPLETE COMBO 2 *</pattern>
+       <pattern>APA YANG DIMAKSUD COMPLETE COMBO 2</pattern>
+       <template>
+           <srai>COMPLETE COMBO 2</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>PENGERTIAN * COMPLETE COMBO 2 *</pattern>
+       <template>
+           <srai>COMPLETE COMBO 2</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>PENGERTIAN * COMPLETE COMBO 2</pattern>
+       <template>
+           <srai>COMPLETE COMBO 2</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>PENGERTIAN COMPLETE COMBO 2</pattern>
+       <template>
+           <srai>COMPLETE COMBO 2</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>APA * COMPLETE COMBO 2 *</pattern>
+       <template>
+           <srai>COMPLETE COMBO 2</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>COMPLETE COMBO 2 * APA</pattern>
        <template>
            <srai>COMPLETE COMBO 2</srai>
        </template>
@@ -229,12 +337,77 @@
            <srai>COMPLETE COMBO 2</srai>
        </template>
    </category>
-
+   <category>
+        <pattern>HARGA COMPLETE COMBO 2</pattern>
+        <template>
+            Harga untuk Complete Combo 2 adalah 66.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * COMPLETE COMBO 2</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * COMPLETE COMBO 2</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK COMPLETE COMBO 2</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA COMPLETE COMBO 2 BERAPA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLETE COMBO 2 HARGANYA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI COMPLETE COMBO 2, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 2</srai>
+        </template>
+    </category>
 
    <category>
-       <pattern>APA ITU COMPLETE COMBO 8</pattern>
+       <pattern>COMPLETE COMBO 8</pattern>
        <template>
            Complete Combo 8 adalah paket makan dengan 5 ayam (3 dada dan 2 paha), 3 nasi, dan 3 minuman yang bisa dipilih (air mineral, soda, dan teh ocha)
+       </template>
+   </category>
+    <category>
+       <pattern>APA ITU COMPLETE COMBO 8</pattern>
+       <template>
+           <srai>COMPLETE COMBO 8</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>PENGERTIAN * COMPLETE COMBO 8</pattern>
+       <template>
+           <srai>COMPLETE COMBO 8</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>PENGERTIAN * COMPLETE COMBO 8 *</pattern>
+       <template>
+           <srai>COMPLETE COMBO 8</srai>
+       </template>
+   </category>
+    <category>
+       <pattern>PENGERTIAN COMPLETE COMBO 8 *</pattern>
+       <template>
+           <srai>COMPLETE COMBO 8</srai>
        </template>
    </category>
    <category>
@@ -255,12 +428,59 @@
            <srai>COMPLETE COMBO 8</srai>
        </template>
    </category>
-
+   <category>
+        <pattern>HARGA COMPLETE COMBO 8</pattern>
+        <template>
+            Harga untuk Complete Combo 8 adalah 170.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * COMPLETE COMBO 8</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * COMPLETE COMBO 8</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK COMPLETE COMBO 8</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA COMPLETE COMBO 8 BERAPA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>COMPLETE COMBO 8 HARGANYA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI COMPLETE COMBO 8, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 8</srai>
+        </template>
+    </category>
 
    <category>
-       <pattern>APA ITU SUPER COMBO 1</pattern>
+       <pattern>SUPER COMBO 1</pattern>
        <template>
            Super Combo 1 adalah paket 2 ayam, 1 kentang goreng, dan 1 kfc soup. Paket ini belum termasuk minum.
+       </template>
+   </category>
+    <category>
+       <pattern>APA ITU SUPER COMBO 1</pattern>
+       <template>
+       <srai>SUPER COMBO 1</srai>
        </template>
    </category>
    <category>
@@ -275,12 +495,60 @@
            <srai>SUPER COMBO 1</srai>
        </template>
    </category>
+    <category>
+       <pattern>* SUPER COMBO 1</pattern>
+       <template>
+           <srai>SUPER COMBO 1</srai>
+       </template>
+   </category>
        <category>
        <pattern>* SUPER COMBO 1</pattern>
        <template>
            <srai>SUPER COMBO 1</srai>
        </template>
    </category>
+    <category>
+        <pattern>HARGA SUPER COMBO 1</pattern>
+        <template>
+            Harga untuk Super Combo 1 adalah 72.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * SUPER COMBO 1</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * SUPER COMBO 1</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK SUPER COMBO 1</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA SUPER COMBO 1 BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER COMBO 1 HARGANYA</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI SUPER COMBO 1, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 1</srai>
+        </template>
+    </category>
 
 
    <category>
@@ -307,7 +575,136 @@
            <srai>SUPER COMBO 2</srai>
        </template>
    </category>
+    <category>
+        <pattern>HARGA SUPER COMBO 2</pattern>
+        <template>
+            Harga untuk Super Combo 2 adalah 77.500.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * SUPER COMBO 2</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * SUPER COMBO 2</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK SUPER COMBO 2</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA SUPER COMBO 2 BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER COMBO 2 HARGANYA</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI SUPER COMBO 2, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 2</srai>
+        </template>
+    </category>
 
+    <!-- French Fries Large -->
+    <category>
+    <pattern>HARGA FRENCH FRIES LARGE</pattern>
+    <template>
+        Harga untuk French Fries Large adalah 30.000.
+    </template>
+    </category>
+    <category>
+        <pattern>HARGA * FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA FRENCH FRIES LARGE BERAPA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FRENCH FRIES LARGE HARGANYA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI FRENCH FRIES LARGE, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+
+    <!-- French Fries Regular -->
+    <category>
+        <pattern>HARGA FRENCH FRIES REGULER</pattern>
+        <template>
+            Harga untuk French Fries Reguler adalah 24.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * FRENCH FRIES REGULER</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * FRENCH FRIES REGULER</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK FRENCH FRIES REGULER</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA FRENCH FRIES REGULER BERAPA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FRENCH FRIES REGULER HARGANYA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI FRENCH FRIES REGULER, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
 
    <category>
        <pattern>MENU MAKANAN LAIN</pattern>
@@ -370,6 +767,106 @@
         <pattern>HARGA MAKANAN *</pattern>
         <template>
             <srai>HARGA MAKANAN</srai>
+        </template>
+    </category>
+
+    <!-- Soup -->
+    <category>
+        <pattern>HARGA SOUP</pattern>
+        <template>
+            Harga untuk Soup adalah 6.500.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * SOUP</pattern>
+        <template>
+            <srai>HARGA SOUP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA SOUP</pattern>
+        <template>
+            <srai>HARGA SOUP</srai>
+        </template>
+    </category>
+
+    <!-- Cream Soup -->
+    <category>
+        <pattern>HARGA CREAM SOUP</pattern>
+        <template>
+            Harga untuk Cream Soup adalah 13.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * CREAM SOUP</pattern>
+        <template>
+            <srai>HARGA CREAM SOUP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA CREAM SOUP</pattern>
+        <template>
+            <srai>HARGA CREAM SOUP</srai>
+        </template>
+    </category>
+
+    <!-- Spaghetti -->
+    <category>
+        <pattern>HARGA SPAGHETTI</pattern>
+        <template>
+            Harga untuk Spaghetti adalah 24.500.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * SPAGHETTI</pattern>
+        <template>
+            <srai>HARGA SPAGHETTI</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA SPAGHETTI</pattern>
+        <template>
+            <srai>HARGA SPAGHETTI</srai>
+        </template>
+    </category>
+
+    <!-- Perkedel -->
+    <category>
+        <pattern>HARGA PERKEDEL</pattern>
+        <template>
+            Harga untuk Perkedel adalah 12.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * PERKEDEL</pattern>
+        <template>
+            <srai>HARGA PERKEDEL</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA PERKEDEL</pattern>
+        <template>
+            <srai>HARGA PERKEDEL</srai>
+        </template>
+    </category>
+
+    <!-- Donat -->
+    <category>
+        <pattern>HARGA DONAT</pattern>
+        <template>
+            Harga untuk Donat adalah 11.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * DONAT</pattern>
+        <template>
+            <srai>HARGA DONAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA DONAT</pattern>
+        <template>
+            <srai>HARGA DONAT</srai>
         </template>
     </category>
 
@@ -484,6 +981,27 @@
         <pattern>ADA GAK *</pattern>
         <template>
             <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* SUKA *</pattern>
+        <template>
+            <think><set name="object-suka"><star index = "2"/></set></think>
+            <condition name = "object-suka" value="burger">
+                <random>
+                    <li>Wah.. saya juga suka <get name = "object-suka"></get></li>
+                    <li>Saya juga suka <get name = "object-suka"></get></li>
+                    <li>KFC-Bot juga suka dengan <get name = "object-suka"></get>, silahkan tanya-tanya</li>
+                </random>
+            </condition>
+            <condition name = "object-suka" value="ayam">
+                <random>
+                    <li>Wah.. saya juga suka <get name = "object-suka"></get></li>
+                    <li>Saya juga suka <get name = "object-suka"></get></li>
+                    <li>KFC-Bot juga suka dengan <get name = "object-suka"></get>, silahkan tanya-tanya</li>
+                </random>
+            </condition>
         </template>
     </category>
 </aiml>
