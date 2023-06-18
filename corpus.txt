@@ -83,3 +83,6 @@ suka
 hola
 KFC-Bot
 anda
+soup
+donat
+perkedel

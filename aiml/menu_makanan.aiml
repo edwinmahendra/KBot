@@ -259,6 +259,12 @@
         </template>
     </category>
     <category>
+        <pattern>BERAPA HARGA COMPLETE COMBO 1</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 1</srai>
+        </template>
+    </category>
+    <category>
         <pattern>HARGA COMPLETE COMBO 1 BERAPA</pattern>
         <template>
             <srai>HARGA COMPLETE COMBO 1</srai>
@@ -362,6 +368,12 @@
         </template>
     </category>
     <category>
+        <pattern>BERAPA HARGA COMPLETE COMBO 2</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 2</srai>
+        </template>
+    </category>
+    <category>
         <pattern>HARGA COMPLETE COMBO 2 BERAPA</pattern>
         <template>
             <srai>HARGA COMPLETE COMBO 2</srai>
@@ -453,6 +465,12 @@
         </template>
     </category>
     <category>
+        <pattern>BERAPA HARGA COMPLETE COMBO 8</pattern>
+        <template>
+            <srai>HARGA COMPLETE COMBO 8</srai>
+        </template>
+    </category>
+    <category>
         <pattern>HARGA COMPLETE COMBO 8 BERAPA</pattern>
         <template>
             <srai>HARGA COMPLETE COMBO 8</srai>
@@ -527,6 +545,12 @@
     </category>
     <category>
         <pattern>BERAPA HARGA UNTUK SUPER COMBO 1</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SUPER COMBO 1</pattern>
         <template>
             <srai>HARGA SUPER COMBO 1</srai>
         </template>
@@ -644,6 +668,12 @@
         </template>
     </category>
     <category>
+        <pattern>BERAPA HARGA FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
         <pattern>HARGA FRENCH FRIES LARGE BERAPA</pattern>
         <template>
             <srai>HARGA FRENCH FRIES LARGE</srai>
@@ -683,6 +713,12 @@
     </category>
     <category>
         <pattern>BERAPA HARGA UNTUK FRENCH FRIES REGULER</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA FRENCH FRIES REGULER</pattern>
         <template>
             <srai>HARGA FRENCH FRIES REGULER</srai>
         </template>
@@ -752,7 +788,7 @@
         </template>
     </category>
     <category>
-        <pattern>* HARGA MAKANAN</pattern>
+        <pattern>BERAPA HARGA MAKANAN</pattern>
         <template>
             <srai>HARGA MAKANAN</srai>
         </template>
@@ -784,7 +820,13 @@
         </template>
     </category>
     <category>
-        <pattern>* HARGA SOUP</pattern>
+        <pattern>BERAPA HARGA SOUP</pattern>
+        <template>
+            <srai>HARGA SOUP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * SOUP</pattern>
         <template>
             <srai>HARGA SOUP</srai>
         </template>
@@ -804,7 +846,13 @@
         </template>
     </category>
     <category>
-        <pattern>* HARGA CREAM SOUP</pattern>
+        <pattern>BERAPA HARGA CREAM SOUP</pattern>
+        <template>
+            <srai>HARGA CREAM SOUP</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * CREAM SOUP</pattern>
         <template>
             <srai>HARGA CREAM SOUP</srai>
         </template>
@@ -824,7 +872,13 @@
         </template>
     </category>
     <category>
-        <pattern>* HARGA SPAGHETTI</pattern>
+        <pattern>BERAPA HARGA SPAGHETTI</pattern>
+        <template>
+            <srai>HARGA SPAGHETTI</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * SPAGHETTI</pattern>
         <template>
             <srai>HARGA SPAGHETTI</srai>
         </template>
@@ -844,7 +898,7 @@
         </template>
     </category>
     <category>
-        <pattern>* HARGA PERKEDEL</pattern>
+        <pattern>BERAPA HARGA PERKEDEL</pattern>
         <template>
             <srai>HARGA PERKEDEL</srai>
         </template>
@@ -864,7 +918,13 @@
         </template>
     </category>
     <category>
-        <pattern>* HARGA DONAT</pattern>
+        <pattern>BERAPA HARGA DONAT</pattern>
+        <template>
+            <srai>HARGA DONAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * DONAT</pattern>
         <template>
             <srai>HARGA DONAT</srai>
         </template>
@@ -979,6 +1039,13 @@
 
     <category>
         <pattern>ADA GAK *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BERAPA HARGA *</pattern>
         <template>
             <srai>UNKNOWN MENU</srai>
         </template>

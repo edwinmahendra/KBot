@@ -39,6 +39,7 @@ class Bot:
                 (r'bagaimana dengan menu (.+)', self.menu_not_found_responses),
                 (r'apa yang anda tahu tentang (.+)', self.menu_not_found_responses),
                 (r'bisakah anda memberi tahu saya tentang (.+)', self.menu_not_found_responses),
+                (r'berapa harga (.+)', self.menu_not_found_responses)
             ]
 
             for pattern, response_list in patterns:
@@ -49,8 +50,6 @@ class Bot:
                     if item.endswith(' itu'):
                         item = item[:-4]
                     return random.choice(response_list).format(item)
-
-            return random.choice(self.unknown_responses)
             
         else:
             return response if response else random.choice(self.unknown_responses)
