@@ -5,13 +5,20 @@
         <pattern>HALO</pattern>
         <template>
             <random>
-                <li>Halo... Apa ada yang bisa saya bantu ?</li>
-                <li>Hai... Apa ada yang bisa saya bantu ?</li>
+                <li>Halo... Apa ada yang bisa saya bantu?</li>
+                <li>Hai... Apa ada yang bisa saya bantu?</li>
+                <li>Ada yang bisa saya bantu?</li>
             </random>
         </template>
     </category>
     <category>
         <pattern>HALO *</pattern>
+        <template>
+            <srai>HALO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HOLA</pattern>
         <template>
             <srai>HALO</srai>
         </template>

@@ -4,10 +4,10 @@
     <category>
         <pattern>KFC</pattern>
         <template>
-            <learn>menu_makanan.aiml</learn>
-            <learn>awal.aiml</learn>
-            <learn>pemesanan.aiml</learn>
-            <learn>menu_minuman.aiml</learn>
+            <learn>aiml/menu_makanan.aiml</learn>
+            <learn>aiml/awal.aiml</learn>
+            <learn>aiml/pemesanan.aiml</learn>
+            <learn>aiml/menu_minuman.aiml</learn>
         </template>
-    </category>
+    </category> 
 </aiml>
