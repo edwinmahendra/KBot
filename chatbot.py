@@ -20,7 +20,8 @@ class Bot:
         self.menu_not_found_responses = [
             "Maaf, menu {} tidak ada di menu kami.",
             "Mohon maaf, kami tidak menyediakan menu {}.",
-            "Menu {}? Maaf, itu tidak tersedia di menu kami."
+            "Menu {}? Maaf, itu tidak tersedia di menu kami.",
+            "Maaf, {} tidak ada di dalam daftar menu kami."
         ]
 
     def _learn_aiml(self):
