@@ -15,12 +15,13 @@ class Bot:
             "Mohon maaf, saya tidak memahami pesan anda.",
             "Maaf, saya tidak mengerti apa yang Anda maksud.",
             "Saya tidak yakin apa yang Anda coba katakan. Bisakah Anda ulangi?",
-            "Maaf, saya masih belajar. Bisakah Anda menggambarkan itu dengan cara lain?",
+            "Bisakah Anda menggambarkan itu dengan cara lain?",
         ]
         self.menu_not_found_responses = [
             "Maaf, menu {} tidak ada di menu kami.",
             "Mohon maaf, kami tidak menyediakan menu {}.",
-            "Menu {}? Maaf, itu tidak tersedia di menu kami."
+            "Menu {}? Maaf, itu tidak tersedia di menu kami.",
+            "Maaf, {} tidak ada di dalam daftar menu kami."
         ]
 
     def _learn_aiml(self):
@@ -48,11 +49,8 @@ class Bot:
                     if item.endswith(' itu'):
                         item = item[:-4]
                     return random.choice(response_list).format(item)
-
-            return random.choice(self.unknown_responses)
-            
         else:
-            return response if response else random.choice(self.unknown_responses)
+            return random.choice(self.unknown_responses)
     
 class TextCorrection:
     def __init__(self, corpus):

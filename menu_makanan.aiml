@@ -159,6 +159,60 @@
            <srai>HAMBURGER</srai>
        </template>
    </category>
+    <category>
+    <pattern>BERAPA MACAM BURGER YANG ADA DI KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>ADA BERAPA MACAM BURGER DI KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>MACAM BURGER APA SAJA YANG ADA DI KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>BERAPA VARIASI BURGER DI KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>BERAPA JENIS BURGER DI KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>ADA BURGER APA SAJA DI KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>* MACAM BURGER * KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>* JENIS BURGER * KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>* VARIASI BURGER * KFC</pattern>
+    <template>
+        <srai>HAMBURGER</srai>
+    </template>
+    </category>
    <category>
        <pattern>* OR BURGER</pattern>
        <template>
