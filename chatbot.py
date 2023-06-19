@@ -16,6 +16,16 @@ class Bot:
             "Maaf, saya tidak mengerti apa yang Anda maksud.",
             "Saya tidak yakin apa yang Anda coba katakan. Bisakah Anda ulangi?",
             "Maaf, saya masih belajar. Bisakah Anda menggambarkan itu dengan cara lain?",
+            "Sepertinya saya tidak dapat memahami. Bisakah Anda coba mengatakannya lagi?",
+            "Mohon maaf, saya masih belajar dan belum mengerti itu. Bisa tolong jelaskan lagi?",
+            "Saya minta maaf atas ketidaknyamanannya. Bisakah Anda ulangi atau jelaskan dengan lebih detail?",
+            "Maaf, saya belum bisa memahami itu sepenuhnya. Bisa ulangi lagi?",
+            "Saya belum bisa memahami maksud Anda. Bisakah Anda memberikan lebih banyak detail?",
+            "Maaf, saya belum bisa memproses pertanyaan Anda. Bisa tolong jelaskan lagi?",
+            "Maaf, saya belum mengerti. Bisa tolong ulangi lagi dengan lebih jelas?",
+            "Saya minta maaf, saya belum sepenuhnya mengerti. Bisa Anda jelaskan dengan cara lain?",
+            "Saya belum memahami maksud Anda. Bisakah Anda mengulasnya lagi?",
+            "Maaf, saya belum sepenuhnya mengerti pertanyaan Anda. Bisa Anda ulangi atau jelaskan lebih lanjut?",
         ]
         self.menu_not_found_responses = [
             "Maaf, menu {} tidak ada di menu kami.",
