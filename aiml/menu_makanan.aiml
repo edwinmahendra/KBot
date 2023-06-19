@@ -624,6 +624,12 @@
         </template>
     </category>
     <category>
+        <pattern>BERAPA HARGA SUPER COMBO 2</pattern>
+        <template>
+            <srai>HARGA SUPER COMBO 2</srai>
+        </template>
+    </category>
+    <category>
         <pattern>HARGA SUPER COMBO 2 BERAPA</pattern>
         <template>
             <srai>HARGA SUPER COMBO 2</srai>
@@ -739,6 +745,63 @@
         <pattern>MAU BELI FRENCH FRIES REGULER, HARGANYA BERAPA</pattern>
         <template>
             <srai>HARGA FRENCH FRIES REGULER</srai>
+        </template>
+    </category>
+
+    <!-- French Fries Large -->
+    <category>
+        <pattern>HARGA FRENCH FRIES LARGE</pattern>
+        <template>
+            Harga untuk French Fries Large adalah 30.000.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA FRENCH FRIES LARGE</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA FRENCH FRIES LARGE BERAPA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FRENCH FRIES LARGE HARGANYA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI FRENCH FRIES LARGE, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA FRENCH FRIES LARGE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BERAPA HARGA FRENCH FRIES</pattern>
+        <template>
+            Harga untuk French Fries Reguler adalah 24.000 dan untuk yang French Fries Large adalah 30.000
         </template>
     </category>
 
