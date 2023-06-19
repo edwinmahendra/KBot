@@ -86,3 +86,7 @@ anda
 soup
 donat
 perkedel
+coca-cola
+cola
+besar
+colab

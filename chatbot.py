@@ -111,6 +111,10 @@ class TextCorrection:
     def insert_letter(self, left, right, c):
         # Fungsi ini menyisipkan karakter tertentu ke dalam sebuah kata, dengan memperhatikan bagian kiri dan kanan kata tersebut.
         return left + c + right
+    
+def remove_trailing_punctuation(text):
+    pattern = r'[^\w\s]*$'
+    return re.sub(pattern, '', text)
 
 def create_app():
     app = Flask(__name__)
@@ -125,7 +129,9 @@ def create_app():
     @app.route("/predict", methods=['POST'])
     def send_message():
         pesan = request.get_json()["message"]
-        print(pesan)
+        
+        pesan = remove_trailing_punctuation(pesan)
+        print('\nRevisi Pesan: ' + pesan +'\n')
         
         # Correct each word in the message
         pesanFix = " ".join(text_correction.correct_word(word) for word in pesan.split())
