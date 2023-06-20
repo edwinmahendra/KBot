@@ -31,7 +31,14 @@ class Bot:
             "Maaf, menu {} tidak ada di menu kami.",
             "Mohon maaf, kami tidak menyediakan menu {}.",
             "Menu {}? Maaf, itu tidak tersedia di menu kami.",
-            "Maaf, {} tidak ada di dalam daftar menu kami."
+            "Maaf, {} tidak ada di dalam daftar menu kami.",
+            "Maaf, saya tidak dapat menemukan {} dalam menu kami.",
+            "Maaf, {} tidak tersedia dalam daftar menu kami saat ini.",
+            "Saya minta maaf, tetapi {} bukan bagian dari menu yang kami tawarkan.",
+            "Mohon maaf, {} bukanlah sebuah opsi dalam menu kami.",
+            "Saya minta maaf, tetapi kami tidak memiliki {} dalam menu kami.",
+            "Mohon maaf, kami tidak menyajikan {} di sini.",
+            "Sayangnya, {} tidak ada dalam pilihan menu kami.",
         ]
 
     def _learn_aiml(self):
@@ -56,7 +63,6 @@ class Bot:
                 match = re.search(pattern, pesan)
                 if match:
                     item = match.group(1)
-                    # Jika pesan diakhiri dengan ' itu', hapus item tersebut dari item
                     if item.endswith(' itu'):
                         item = item[:-4]
                     return random.choice(response_list).format(item)
@@ -80,7 +86,7 @@ class TextCorrection:
 
     def correct_word(self, word):
         # Fungsi ini mengoreksi kata yang diberikan dengan memilih kata yang paling mungkin dari kemungkinan koreksinya.
-        return max(self.possible_corrections(word), key=self.probability)
+         return max(self.possible_corrections(word), key=self.probability)
 
     def possible_corrections(self, word):
         # Fungsi ini mengembalikan koreksi yang mungkin untuk kata yang diberikan. Koreksi dapat berupa kata yang sudah diketahui,
@@ -123,7 +129,7 @@ class TextCorrection:
         return left + c + right
     
 def remove_trailing_punctuation(text):
-    pattern = r'[^\w\s]*$'
+    pattern = r'[^a-zA-Z0-9\s]'
     return re.sub(pattern, '', text)
 
 def create_app():
@@ -143,18 +149,14 @@ def create_app():
         pesan = remove_trailing_punctuation(pesan)
         print('\nRevisi Pesan: ' + pesan +'\n')
         
-        # Correct each word in the message
         pesanFix = " ".join(text_correction.correct_word(word) for word in pesan.split())
         print("User Chat    : " + pesanFix)
 
-        # Get bot's response and split it into words
         response_words = bot.get_response(pesanFix).split()
-
-        # Substitute "^" with "<br>" in the response
+        
         response_bot = " ".join("<br>" if word == "^" else word for word in response_words)
         print("Bot      : " + response_bot)
 
-        # Return the corrected response
         return jsonify({"message": response_bot.strip()})
 
     return app

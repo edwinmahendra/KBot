@@ -103,3 +103,4 @@ fanta
 es
 panas
 kopi
+apel
