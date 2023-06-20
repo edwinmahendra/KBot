@@ -80,6 +80,7 @@ mau
 beli
 suka
 hola
+hot
 KFC-Bot
 anda
 soup
@@ -93,3 +94,12 @@ large
 french
 fries
 reguler
+mocha
+float
+mango
+coffee
+kopi
+fanta
+es
+panas
+kopi

@@ -4,7 +4,7 @@
     <category>
        <pattern>MENU MINUMAN</pattern>
        <template>
-           Berikut adalah menu MINUMAN di KFC: ^
+           Berikut adalah menu minuman di KFC: ^
            1. Coca Cola ^
            2. Sprite ^
            3. Fanta ^
@@ -103,14 +103,14 @@
     <category>
         <pattern>HARGA MINUMAN</pattern>
         <template>
-            1. Coca Cola (11.000) ^
-           2. Sprite (11.000) ^
-           3. Fanta (11.000) ^
-           4. Mocha Float (15.000) ^
-           5. Mango Float (10.000) ^
-           6. Ice Coffee Nescafe (10.000) ^
-           7. Hot Black Coffee Nescafe (8.000) ^
-           8. Mineral Water (8.000) ^
+            1. Coca Cola M (11.000) | L (14.500) ^
+            2. Sprite M (11.000) | L (14.500) ^
+            3. Fanta M (11.000) | L (14.500) ^
+            4. Mocha Float (15.000) ^
+            5. Mango Float (10.000) ^
+            6. Ice Coffee Nescafe (10.000) ^
+            7. Hot Black Coffee Nescafe (8.000) ^
+            8. Mineral Water (8.000) ^
         </template>
     </category>
     <category>
@@ -129,6 +129,429 @@
         <pattern>HARGA MINUMAN *</pattern>
         <template>
             <srai>HARGA MINUMAN</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA COCA COLA</pattern>
+        <template>
+            Harga untuk Coca-cola ukuran Medium adalah 11.000 sedangkan Large 14.500
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA-COLA</pattern>
+        <template>
+            <srai>HARGA COCA COLA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * COCA-COLA</pattern>
+        <template>
+            <srai>HARGA COCA COLA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * COCA-COLA</pattern>
+        <template>
+            <srai>HARGA COCA COLA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA COLA</pattern>
+        <template>
+            <srai>HARGA COCA COLA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * COCA COLA</pattern>
+        <template>
+            <srai>HARGA COCA COLA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * COCA COLA</pattern>
+        <template>
+            <srai>HARGA COCA COLA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA COCA COLA M</pattern>
+        <template>
+            Harga untuk Coca-cola ukuran Medium adalah 11.000
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA-COLA M</pattern>
+        <template>
+            <srai>HARGA COCA COLA M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA-COLA MEDIUM</pattern>
+        <template>
+            <srai>HARGA COCA COLA M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA COLA M</pattern>
+        <template>
+            <srai>HARGA COCA COLA M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA COLA MEDIUM</pattern>
+        <template>
+            <srai>HARGA COCA COLA M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA COCA COLA L</pattern>
+        <template>
+            Harga untuk Coca-cola ukuran Large adalah 14.500
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA-COLA L</pattern>
+        <template>
+            <srai>HARGA COCA COLA L</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA-COLA LARGE</pattern>
+        <template>
+            <srai>HARGA COCA COLA L</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA COLA L</pattern>
+        <template>
+            <srai>HARGA COCA COLA L</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA COCA COLA LARGE</pattern>
+        <template>
+            <srai>HARGA COCA COLA L</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA SPRITE</pattern>
+        <template>
+            Harga untuk Sprite ukuran Medium adalah 11.000 sedangkan Large 14.500
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SPRITE</pattern>
+        <template>
+            <srai>HARGA SPRITE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * SPRITE</pattern>
+        <template>
+            <srai>HARGA SPRITE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * SPRITE</pattern>
+        <template>
+            <srai>HARGA SPRITE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA SPRITE M</pattern>
+        <template>
+            Harga untuk Sprite ukuran Medium adalah 11.000
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SPRITE M</pattern>
+        <template>
+            <srai>HARGA SPRITE M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SPRITE MEDIUM</pattern>
+        <template>
+            <srai>HARGA SPRITE M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA SPRITE L</pattern>
+        <template>
+            Harga untuk Sprite ukuran Large adalah 14.500
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SPRITE L</pattern>
+        <template>
+            <srai>HARGA SPRITE L</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SPRITE LARGE</pattern>
+        <template>
+            <srai>HARGA SPRITE L</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA FANTA</pattern>
+        <template>
+            Harga untuk Fanta ukuran Medium adalah 11.000 sedangkan Large 14.500
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA FANTA</pattern>
+        <template>
+            <srai>HARGA FANTA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * FANTA</pattern>
+        <template>
+            <srai>HARGA FANTA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * FANTA</pattern>
+        <template>
+            <srai>HARGA FANTA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA FANTA M</pattern>
+        <template>
+            Harga untuk Fanta ukuran Medium adalah 11.000
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA FANTA M</pattern>
+        <template>
+            <srai>HARGA FANTA M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA FANTA MEDIUM</pattern>
+        <template>
+            <srai>HARGA FANTA M</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA FANTA L</pattern>
+        <template>
+            Harga untuk Fanta ukuran Large adalah 14.500
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA FANTA L</pattern>
+        <template>
+            <srai>HARGA FANTA L</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA FANTA LARGE</pattern>
+        <template>
+            <srai>HARGA FANTA L</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA MOCHA FLOAT</pattern>
+        <template>
+            Harga untuk Mocha Float adalah 15.000
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA MOCHA FLOAT *</pattern>
+        <template>
+            <srai>HARGA MOCHA FLOAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA MOCHA FLOAT</pattern>
+        <template>
+            <srai>HARGA MOCHA FLOAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * MOCHA FLOAT</pattern>
+        <template>
+            <srai>HARGA MOCHA FLOAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * MOCHA FLOAT</pattern>
+        <template>
+            <srai>HARGA MOCHA FLOAT</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA MANGO FLOAT</pattern>
+        <template>
+            Harga untuk Mango Float adalah 10.000
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA MANGO FLOAT</pattern>
+        <template>
+            <srai>HARGA MANGO FLOAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * MANGO FLOAT</pattern>
+        <template>
+            <srai>HARGA MANGO FLOAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * MANGO FLOAT</pattern>
+        <template>
+            <srai>HARGA MANGO FLOAT</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA ICE COFFEE NESCAFE</pattern>
+        <template>
+            Harga untuk Ice Coffee Nescafe adalah 10.000
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA ICE COFFEE NESCAFE</pattern>
+        <template>
+            <srai>HARGA ICE COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * ICE COFFEE NESCAFE</pattern>
+        <template>
+            <srai>HARGA ICE COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * ICE COFFEE NESCAFE</pattern>
+        <template>
+            <srai>HARGA ICE COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA ES KOPI</pattern>
+        <template>
+            <srai>HARGA ICE COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * ES KOPI</pattern>
+        <template>
+            <srai>HARGA ICE COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * ES KOPI</pattern>
+        <template>
+            <srai>HARGA ICE COFFEE NESCAFE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA HOT BLACK COFFEE NESCAFE</pattern>
+        <template>
+            Harga untuk Hot Black Coffee Nescafe adalah 8.000
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA HOT BLACK COFFEE NESCAFE</pattern>
+        <template>
+            <srai>HARGA HOT BLACK COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * HOT BLACK COFFEE NESCAFE</pattern>
+        <template>
+            <srai>HARGA HOT BLACK COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * HOT BLACK COFFEE NESCAFE</pattern>
+        <template>
+            <srai>HARGA HOT BLACK COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA KOPI PANAS</pattern>
+        <template>
+            <srai>HARGA HOT BLACK COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA * KOPI PANAS</pattern>
+        <template>
+            <srai>HARGA HOT BLACK COFFEE NESCAFE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * KOPI PANAS</pattern>
+        <template>
+            <srai>HARGA HOT BLACK COFFEE NESCAFE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA KOPI</pattern>
+        <template>
+            Harga untuk Ice Coffee Nescafe adalah 10.000 sedangkan Hot Black Coffee Nescafe adalah 8.000
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA KOPI *</pattern>
+        <template>
+            <srai>HARGA KOPI</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA KOPI</pattern>
+        <template>
+            <srai>HARGA KOPI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HARGA MINERAL WATER</pattern>
+        <template>
+            Harga untuk Mineral Water adalah 8.000
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA MINERAL WATER</pattern>
+        <template>
+            <srai>HARGA MINERAL WATER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA AIR *</pattern>
+        <template>
+            <srai>HARGA MINERAL WATER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA AIR</pattern>
+        <template>
+            <srai>HARGA MINERAL WATER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA AQUA</pattern>
+        <template>
+            <srai>HARGA MINERAL WATER</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * AQUA</pattern>
+        <template>
+            <srai>HARGA MINERAL WATER</srai>
         </template>
     </category>
 
