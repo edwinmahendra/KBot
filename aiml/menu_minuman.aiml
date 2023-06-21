@@ -605,5 +605,36 @@
             <srai>MANGO FLOAT</srai>
         </template>
     </category>
+    <category>
+        <pattern>APA ITU MANGO FLOAT</pattern>
+        <template>
+            Mango Float adalah dessert yang lezat dan menyegarkan! Terbuat dari rasa mangga yang manis dan segar, dicampur dengan es krim vanilla yang creamy dan ditambah dengan jelly yang kenyal.
+        </template>
+    </category>
+    <category>
+        <pattern>APA * MANGO FLOAT *</pattern>
+        <template>
+            <srai>APA ITU MANGO FLOAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>APA * MANGO FLOAT</pattern>
+        <template>
+            <srai>APA ITU MANGO FLOAT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BAGAIMANA RASA MANGO FLOAT</pattern>
+        <template>
+            Mango Float memiliki rasa yang manis dan segar dari mangga, ditambah dengan kekayaan dan creaminess dari es krim vanilla. Ditambah lagi dengan kenyalnya jelly yang membuatnya menjadi dessert yang sempurna!
+        </template>
+    </category>
+    <category>
+        <pattern>* BAGAIMANA RASA MANGO FLOAT *</pattern>
+        <template>
+            <srai>BAGAIMANA RASA MANGO FLOAT</srai>
+        </template>
+    </category>
+
 
 </aiml>

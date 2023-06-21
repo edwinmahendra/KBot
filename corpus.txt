@@ -61,7 +61,6 @@ panduan
 pesan
 prosedur
 bisa
-bagaimana
 di
 online
 1
@@ -104,3 +103,6 @@ es
 panas
 kopi
 apel
+rasa
+lele
+pecel

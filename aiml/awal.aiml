@@ -66,6 +66,10 @@
         <template><srai>IDENTITAS KAMU</srai></template>
     </category>
     <category>
+        <pattern>DENGAN SIAPA SAYA BERBICARA</pattern>
+        <template><srai>DENGAN SIAPA SAYA BERINTERAKSI</srai></template>
+    </category>
+    <category>
         <pattern>SIAPA IDENTITAS KAMU</pattern>
         <template><srai>IDENTITAS KAMU</srai></template>
     </category>
@@ -146,6 +150,18 @@
     </category>
     <category>
         <pattern>* BERDIRI * BERAPA</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>KFC DIDIRIKAN *</pattern>
+        <template>
+            <srai>BERDIRI TANGGAL BERAPA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* KFC DIDIRIKAN</pattern>
         <template>
             <srai>BERDIRI TANGGAL BERAPA</srai>
         </template>

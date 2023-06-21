@@ -68,55 +68,201 @@
        <template>
            <srai>MENU MAKANAN</srai>
        </template>
-   </category>
-      <category>
-       <pattern>SUPER 9 PLUS</pattern>
-       <template>
-           Super 9 plus adalah paket ayam dari KFC yang menawarkan 9 pcs ayam, 7 puding, dan 7 nasi.
-       </template>
-   </category>
-   <category>
-       <pattern>* SUPER 9 PLUS *</pattern>
-       <template>
-           <srai>SUPER 9 PLUS</srai>
-       </template>
-   </category>
-   <category>
-       <pattern>SUPER 9 PLUS *</pattern>
-       <template>
-           <srai>SUPER 9 PLUS</srai>
-       </template>
-   </category>
-       <category>
-       <pattern>* SUPER 9 PLUS</pattern>
-       <template>
-           <srai>SUPER 9 PLUS</srai>
-       </template>
-   </category>
-   <category>
+    </category>
+    <category>
+        <pattern>SUPER 9 PLUS</pattern>
+        <template>
+            Super 9 plus adalah paket ayam dari KFC yang menawarkan 9 pcs ayam, 7 puding, dan 7 nasi.
+        </template>
+    </category>
+    <category>
+    <pattern>APA ITU SUPER 9 PLUS</pattern>
+    <template>
+        <srai>SUPER 9 PLUS</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>PENGERTIAN * SUPER 9 PLUS</pattern>
+    <template>
+        <srai>SUPER 9 PLUS</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>PENGERTIAN * SUPER 9 PLUS *</pattern>
+    <template>
+        <srai>SUPER 9 PLUS</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>PENGERTIAN SUPER 9 PLUS *</pattern>
+    <template>
+        <srai>SUPER 9 PLUS</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>APA * SUPER 9 PLUS *</pattern>
+    <template>
+        <srai>SUPER 9 PLUS</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>SUPER 9 PLUS * APA</pattern>
+    <template>
+        <srai>SUPER 9 PLUS</srai>
+    </template>
+    </category>
+    <category>
+    <pattern>* SUPER 9 PLUS</pattern>
+    <template>
+        <srai>SUPER 9 PLUS</srai>
+    </template>
+    </category>
+    <category>
+        <pattern>HARGA SUPER 9 PLUS</pattern>
+        <template>
+            Harga untuk Super 9 Plus adalah 241.500.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * SUPER 9 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * SUPER 9 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK SUPER 9 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SUPER 9 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA SUPER 9 PLUS BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER 9 PLUS HARGANYA</pattern>
+        <template>
+            <srai>HARGA SUPER 9 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI SUPER 9 PLUS, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER 9 PLUS</srai>
+        </template>
+    </category>
+
+    <category>
        <pattern>SUPER 7 PLUS</pattern>
        <template>
-           Super 7 plus adalah paket ayam dari KFC yang menawarkan 7 pcs ayam, 7 puding, dan 7 nasi.
+           Super 7 Plus adalah paket ayam dari KFC yang menawarkan 7 pcs ayam, 7 puding, dan 7 nasi.
        </template>
    </category>
    <category>
-       <pattern>* SUPER 7 PLUS *</pattern>
+       <pattern>APA ITU SUPER 7 PLUS</pattern>
        <template>
            <srai>SUPER 7 PLUS</srai>
        </template>
    </category>
    <category>
-       <pattern>SUPER 7 PLUS *</pattern>
+       <pattern>PENGERTIAN * SUPER 7 PLUS</pattern>
        <template>
            <srai>SUPER 7 PLUS</srai>
        </template>
    </category>
-       <category>
+   <category>
+       <pattern>PENGERTIAN * SUPER 7 PLUS *</pattern>
+       <template>
+           <srai>SUPER 7 PLUS</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>PENGERTIAN SUPER 7 PLUS *</pattern>
+       <template>
+           <srai>SUPER 7 PLUS</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>APA * SUPER 7 PLUS *</pattern>
+       <template>
+           <srai>SUPER 7 PLUS</srai>
+       </template>
+   </category>
+   <category>
+       <pattern>SUPER 7 PLUS * APA</pattern>
+       <template>
+           <srai>SUPER 7 PLUS</srai>
+       </template>
+   </category>
+   <category>
        <pattern>* SUPER 7 PLUS</pattern>
        <template>
            <srai>SUPER 7 PLUS</srai>
        </template>
    </category>
+    <category>
+        <pattern>HARGA SUPER 7 PLUS</pattern>
+        <template>
+            Harga untuk Super 7 Plus adalah 183.500.
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA * SUPER 7 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* HARGA * SUPER 7 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA UNTUK SUPER 7 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>BERAPA HARGA SUPER 7 PLUS</pattern>
+        <template>
+            <srai>HARGA SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HARGA SUPER 7 PLUS BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUPER 7 PLUS HARGANYA</pattern>
+        <template>
+            <srai>HARGA SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAU BELI SUPER 7 PLUS, HARGANYA BERAPA</pattern>
+        <template>
+            <srai>HARGA SUPER 7 PLUS</srai>
+        </template>
+    </category>
+    
    <category>
        <pattern>HAMBURGER</pattern>
        <template>
@@ -1115,10 +1261,38 @@
     </category>
 
     <category>
+        <pattern>BAGAIMANA DENGAN MENU *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>APA YANG ANDA TAHU TENTANG *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BISAKAH ANDA MEMBERI TAHU SAYA TENTANG *</pattern>
+        <template>
+            <srai>UNKNOWN MENU</srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>* SUKA *</pattern>
         <template>
             <think><set name="object-suka"><star index = "2"/></set></think>
             <condition name = "object-suka" value="burger">
+                <random>
+                    <li>Wah.. saya juga suka <get name = "object-suka"></get></li>
+                    <li>Saya juga suka <get name = "object-suka"></get></li>
+                    <li>KFC-Bot juga suka dengan <get name = "object-suka"></get>, silahkan tanya-tanya</li>
+                </random>
+            </condition>
+            <condition name = "object-suka" value="ayam">
                 <random>
                     <li>Wah.. saya juga suka <get name = "object-suka"></get></li>
                     <li>Saya juga suka <get name = "object-suka"></get></li>

@@ -129,7 +129,7 @@ class TextCorrection:
         return left + c + right
     
 def remove_trailing_punctuation(text):
-    pattern = r'[^a-zA-Z0-9\s]'
+    pattern = r'[^a-zA-Z0-9\s-]'
     return re.sub(pattern, '', text)
 
 def create_app():
